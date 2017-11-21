@@ -41,6 +41,7 @@
 </head>
 
 <body>
+
     <!-- *** TOPBAR ***
  _________________________________________________________ -->
     <div id="top">
@@ -50,9 +51,9 @@
                 <ul class="menu">
                     <li><a href="#" data-toggle="modal" data-target="#login-modal">Login</a>
                     </li>
-                    <li><a href="register.html">Register</a>
+                    <li><a href="register.php">Register</a>
                     </li>
-                    <li><a href="contact.html">Contact</a>
+                    <li><a href="contact.php">Contact</a>
                     </li>                    
                 </ul>
             </div>
@@ -66,7 +67,7 @@
                         <h4 class="modal-title" id="Login">Customer login</h4>
                     </div>
                     <div class="modal-body">
-                        <form action="customer-orders.html" method="post">
+                        <form action="customer-orders.php" method="post">
                             <div class="form-group">
                                 <input type="text" class="form-control" id="email-modal" placeholder="email">
                             </div>
@@ -81,7 +82,7 @@
                         </form>
 
                         <p class="text-center text-muted">Not registered yet?</p>
-                        <p class="text-center text-muted"><a href="register.html"><strong>Register now</strong></a>! It is easy and done in 1&nbsp;minute and gives you access to special discounts and much more!</p>
+                        <p class="text-center text-muted"><a href="register.php"><strong>Register now</strong></a>! It is easy and done in 1&nbsp;minute and gives you access to special discounts and much more!</p>
 
                     </div>
                 </div>
@@ -99,7 +100,7 @@
         <div class="container">
             <div class="navbar-header">
 
-                <a class="navbar-brand home" href="index.html" data-animate-hover="bounce">
+                <a class="navbar-brand home" href="index.php" data-animate-hover="bounce">
                     <img src="img/logo.png" alt="Obaju logo" class="hidden-xs">
                     <img src="img/logo-small.png" alt="Obaju logo" class="visible-xs"><span class="sr-only">Obaju - go to homepage</span>
                 </a>
@@ -112,7 +113,7 @@
                         <span class="sr-only">Toggle search</span>
                         <i class="fa fa-search"></i>
                     </button>
-                    <a class="btn btn-default navbar-toggle" href="basket.html">
+                    <a class="btn btn-default navbar-toggle" href="basket.php">
                         <i class="fa fa-shopping-cart"></i>  <span class="hidden-xs">3 items in cart</span>
                     </a>
                 </div>
@@ -122,7 +123,7 @@
             <div class="navbar-collapse collapse" id="navigation">
 
                 <ul class="nav navbar-nav navbar-left">
-                    <li class="active"><a href="index.html">Home</a>
+                    <li class="active"><a href="index.php">Home</a>
                     </li>
                     <li class="dropdown yamm-fw">
                         <a href="#" class="dropdown-toggle" data-toggle="dropdown" data-hover="dropdown" data-delay="200">Voucher Game <b class="caret"></b></a>
@@ -132,41 +133,41 @@
                                     <div class="row">
                                         <div class="col-sm-6">
                                             <ul>
-                                                <li><a href="category.html">I-Tunes Gift Card</a>
+                                                <li><a href="category-itunes.php">I-Tunes Gift Card</a>
                                                 </li>
-                                                <li><a href="category.html">Line Store</a>
+                                                <li><a href="category-line.php">Line Store</a>
                                                 </li>
-                                                <li><a href="category.html">PlayStation Network Card</a>
+                                                <li><a href="category-ps.php">PlayStation Network Card</a>
                                                 </li>
-                                                <li><a href="category.html">Xbox Live Gift Card</a>
+                                                <li><a href="category-xbox.php">Xbox Live Gift Card</a>
                                                 </li>
-                                                <li><a href="category.html">Travian</a>
+                                                <li><a href="category-travian.php">Travian</a>
                                                 </li>
-                                                <li><a href="category.html">LYTO Game</a>
+                                                <li><a href="category.php">LYTO Game</a>
                                                 </li>
-                                                <li><a href="category.html">Megaxus MI-Cash</a>
+                                                <li><a href="category.php">Megaxus MI-Cash</a>
                                                 </li>
-                                                <li><a href="category.html">WaveGame</a>
+                                                <li><a href="category.php">WaveGame</a>
                                                 </li>
-                                                <li><a href="category.html">Zynga</a>
+                                                <li><a href="category.php">Zynga</a>
                                                 </li>
-                                                <li><a href="category.html">MOGPlay</a>
+                                                <li><a href="category.php">MOGPlay</a>
                                                 </li>
-                                                <li><a href="category.html">Digi Game Card</a>
+                                                <li><a href="category.php">Digi Game Card</a>
                                                 </li>
                                             </ul>
                                         </div>
                                         <div class="col-sm-6">
                                             <ul>
-                                                <li><a href="category.html">Steam</a>
+                                                <li><a href="category.php">Steam</a>
                                                 </li>
-                                                <li><a href="category.html">Gerena Shells</a>
+                                                <li><a href="category.php">Gerena Shells</a>
                                                 </li>
-                                                <li><a href="category.html">Gemscool Cash</a>
+                                                <li><a href="category.php">Gemscool Cash</a>
                                                 </li>
-                                                <li><a href="category.html">Battle.net Balance Card</a>
+                                                <li><a href="category.php">Battle.net Balance Card</a>
                                                 </li>
-                                                <li><a href="category.html">Facebook Game Card</a>
+                                                <li><a href="category.php">Facebook Game Card</a>
                                                 </li>
                                             </ul>
                                         </div>
@@ -187,7 +188,7 @@
             <div class="navbar-buttons">
 
                 <div class="navbar-collapse collapse right" id="basket-overview">
-                    <a href="basket.html" class="btn btn-primary navbar-btn"><i class="fa fa-shopping-cart"></i><span class="hidden-sm">3 items in cart</span></a>
+                    <a href="basket.php" class="btn btn-primary navbar-btn"><i class="fa fa-shopping-cart"></i><span class="hidden-sm">3 items in cart</span></a>
                 </div>
                 <!--/.nav-collapse -->
 
@@ -207,9 +208,9 @@
                         <input type="text" class="form-control" placeholder="Search">
                         <span class="input-group-btn">
 
-            <button type="submit" class="btn btn-primary"><i class="fa fa-search"></i></button>
+			<button type="submit" class="btn btn-primary"><i class="fa fa-search"></i></button>
 
-            </span>
+		    </span>
                     </div>
                 </form>
 
@@ -223,127 +224,142 @@
 
     <!-- *** NAVBAR END *** -->
 
+
+
     <div id="all">
 
         <div id="content">
+
             <div class="container">
-
                 <div class="col-md-12">
-
-                    <ul class="breadcrumb">
-                        <li><a href="index.html">Home</a>
-                        </li>
-                        <li>My wishlist</li>
-                    </ul>
-
+                    <div id="main-slider">
+                        <div class="item">
+                            <img src="img/main-slider1.jpg" alt="" class="img-responsive">
+                        </div>
+                        <div class="item">
+                            <img class="img-responsive" src="img/main-slider2.jpg" alt="">
+                        </div>
+                        <div class="item">
+                            <img class="img-responsive" src="img/main-slider3.jpg" alt="">
+                        </div>
+                        <div class="item">
+                            <img class="img-responsive" src="img/main-slider4.jpg" alt="">
+                        </div>
+                    </div>
+                    <!-- /#main-slider -->
                 </div>
+            </div>
 
-                <div class="col-md-3">
-                    <!-- *** CUSTOMER MENU ***
+            <!-- *** ADVANTAGES HOMEPAGE ***
  _________________________________________________________ -->
-                    <div class="panel panel-default sidebar-menu">
+            <div id="advantages">
 
-                        <div class="panel-heading">
-                            <h3 class="panel-title">Customer section</h3>
+                <div class="container">
+                    <div class="same-height-row">
+                        <div class="col-sm-4">
+                            <div class="box same-height clickable">
+                                <div class="icon"><i class="fa fa-heart"></i>
+                                </div>
+
+                                <h3><a href="#">We love our customers</a></h3>
+                                <p>We are known to provide best possible service ever</p>
+                            </div>
                         </div>
 
-                        <div class="panel-body">
+                        <div class="col-sm-4">
+                            <div class="box same-height clickable">
+                                <div class="icon"><i class="fa fa-tags"></i>
+                                </div>
 
-                            <ul class="nav nav-pills nav-stacked">
-                                <li class="active">
-                                    <a href="customer-orders.html"><i class="fa fa-list"></i> My orders</a>
-                                </li>
-                                <li>
-                                    <a href="customer-wishlist.html"><i class="fa fa-heart"></i> My wishlist</a>
-                                </li>
-                                <li>
-                                    <a href="customer-account.html"><i class="fa fa-user"></i> My account</a>
-                                </li>
-                                <li>
-                                    <a href="index.html"><i class="fa fa-sign-out"></i> Logout</a>
-                                </li>
-                            </ul>
+                                <h3><a href="#">Best prices</a></h3>
+                                <p>You can check that the height of the boxes adjust when longer text like this one is used in one of them.</p>
+                            </div>
                         </div>
 
+                        <div class="col-sm-4">
+                            <div class="box same-height clickable">
+                                <div class="icon"><i class="fa fa-thumbs-up"></i>
+                                </div>
+
+                                <h3><a href="#">100% satisfaction guaranteed</a></h3>
+                                <p>Free returns on everything for 3 months.</p>
+                            </div>
+                        </div>
                     </div>
-                    <!-- /.col-md-3 -->
+                    <!-- /.row -->
 
-                    <!-- *** CUSTOMER MENU END *** -->
+                </div>
+                <!-- /.container -->
+
+            </div>
+            <!-- /#advantages -->
+
+            <!-- *** ADVANTAGES END *** -->
+
+            <!-- *** HOT PRODUCT SLIDESHOW ***
+ _________________________________________________________ -->
+            <div id="hot">
+
+                <div class="box">
+                    <div class="container">
+                        <div class="col-md-12">
+                            <h2>Hot this week</h2>
+                        </div>
+                    </div>
                 </div>
 
-                <div class="col-md-9" id="wishlist">
-
-                    <ul class="breadcrumb">
-                        <li><a href="#">Home</a>
-                        </li>
-                        <li>Ladies</li>
-                    </ul>
-
-                    <div class="box">
-                        <h1>My wishlist</h1>
-                        <p class="lead">Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.</p>
-                    </div>
-
-                    <div class="row products">
-
-                        <div class="col-md-3 col-sm-4">
+                <div class="container">
+                    <div class="product-slider">
+                        <div class="item">
                             <div class="product">
                                 <div class="flip-container">
                                     <div class="flipper">
                                         <div class="front">
-                                            <a href="detail.html">
+                                            <a href="detail.php">
                                                 <img src="img/product1.jpg" alt="" class="img-responsive">
                                             </a>
                                         </div>
                                         <div class="back">
-                                            <a href="detail.html">
+                                            <a href="detail.php">
                                                 <img src="img/product1_2.jpg" alt="" class="img-responsive">
                                             </a>
                                         </div>
                                     </div>
                                 </div>
-                                <a href="detail.html" class="invisible">
+                                <a href="detail.php" class="invisible">
                                     <img src="img/product1.jpg" alt="" class="img-responsive">
                                 </a>
                                 <div class="text">
-                                    <h3><a href="detail.html">Fur coat with very but very very long name</a></h3>
+                                    <h3><a href="detail.php">Fur coat with very but very very long name</a></h3>
                                     <p class="price">$143.00</p>
-                                    <p class="buttons">
-                                        <a href="detail.html" class="btn btn-default">View detail</a>
-                                        <a href="basket.html" class="btn btn-primary"><i class="fa fa-shopping-cart"></i>Add to cart</a>
-                                    </p>
                                 </div>
                                 <!-- /.text -->
                             </div>
                             <!-- /.product -->
                         </div>
 
-                        <div class="col-md-3 col-sm-4">
+                        <div class="item">
                             <div class="product">
                                 <div class="flip-container">
                                     <div class="flipper">
                                         <div class="front">
-                                            <a href="detail.html">
+                                            <a href="detail.php">
                                                 <img src="img/product2.jpg" alt="" class="img-responsive">
                                             </a>
                                         </div>
                                         <div class="back">
-                                            <a href="detail.html">
+                                            <a href="detail.php">
                                                 <img src="img/product2_2.jpg" alt="" class="img-responsive">
                                             </a>
                                         </div>
                                     </div>
                                 </div>
-                                <a href="detail.html" class="invisible">
+                                <a href="detail.php" class="invisible">
                                     <img src="img/product2.jpg" alt="" class="img-responsive">
                                 </a>
                                 <div class="text">
-                                    <h3><a href="detail.html">White Blouse Armani</a></h3>
+                                    <h3><a href="detail.php">White Blouse Armani</a></h3>
                                     <p class="price"><del>$280</del> $143.00</p>
-                                    <p class="buttons">
-                                        <a href="detail.html" class="btn btn-default">View detail</a>
-                                        <a href="basket.html" class="btn btn-primary"><i class="fa fa-shopping-cart"></i>Add to cart</a>
-                                    </p>
                                 </div>
                                 <!-- /.text -->
 
@@ -368,99 +384,84 @@
                             <!-- /.product -->
                         </div>
 
-                        <div class="col-md-3 col-sm-4">
+                        <div class="item">
                             <div class="product">
                                 <div class="flip-container">
                                     <div class="flipper">
                                         <div class="front">
-                                            <a href="detail.html">
+                                            <a href="detail.php">
                                                 <img src="img/product3.jpg" alt="" class="img-responsive">
                                             </a>
                                         </div>
                                         <div class="back">
-                                            <a href="detail.html">
+                                            <a href="detail.php">
                                                 <img src="img/product3_2.jpg" alt="" class="img-responsive">
                                             </a>
                                         </div>
                                     </div>
                                 </div>
-                                <a href="detail.html" class="invisible">
+                                <a href="detail.php" class="invisible">
                                     <img src="img/product3.jpg" alt="" class="img-responsive">
                                 </a>
                                 <div class="text">
-                                    <h3><a href="detail.html">Black Blouse Versace</a></h3>
+                                    <h3><a href="detail.php">Black Blouse Versace</a></h3>
                                     <p class="price">$143.00</p>
-                                    <p class="buttons">
-                                        <a href="detail.html" class="btn btn-default">View detail</a>
-                                        <a href="basket.html" class="btn btn-primary"><i class="fa fa-shopping-cart"></i>Add to cart</a>
-                                    </p>
-
                                 </div>
                                 <!-- /.text -->
                             </div>
                             <!-- /.product -->
                         </div>
 
-                        <div class="col-md-3 col-sm-4">
+                        <div class="item">
                             <div class="product">
                                 <div class="flip-container">
                                     <div class="flipper">
                                         <div class="front">
-                                            <a href="detail.html">
+                                            <a href="detail.php">
                                                 <img src="img/product3.jpg" alt="" class="img-responsive">
                                             </a>
                                         </div>
                                         <div class="back">
-                                            <a href="detail.html">
+                                            <a href="detail.php">
                                                 <img src="img/product3_2.jpg" alt="" class="img-responsive">
                                             </a>
                                         </div>
                                     </div>
                                 </div>
-                                <a href="detail.html" class="invisible">
+                                <a href="detail.php" class="invisible">
                                     <img src="img/product3.jpg" alt="" class="img-responsive">
                                 </a>
                                 <div class="text">
-                                    <h3><a href="detail.html">Black Blouse Versace</a></h3>
+                                    <h3><a href="detail.php">Black Blouse Versace</a></h3>
                                     <p class="price">$143.00</p>
-                                    <p class="buttons">
-                                        <a href="detail.html" class="btn btn-default">View detail</a>
-                                        <a href="basket.html" class="btn btn-primary"><i class="fa fa-shopping-cart"></i>Add to cart</a>
-                                    </p>
-
                                 </div>
                                 <!-- /.text -->
                             </div>
                             <!-- /.product -->
                         </div>
 
-                        <div class="col-md-3 col-sm-4">
+                        <div class="item">
                             <div class="product">
                                 <div class="flip-container">
                                     <div class="flipper">
                                         <div class="front">
-                                            <a href="detail.html">
+                                            <a href="detail.php">
                                                 <img src="img/product2.jpg" alt="" class="img-responsive">
                                             </a>
                                         </div>
                                         <div class="back">
-                                            <a href="detail.html">
+                                            <a href="detail.php">
                                                 <img src="img/product2_2.jpg" alt="" class="img-responsive">
                                             </a>
                                         </div>
                                     </div>
                                 </div>
-                                <a href="detail.html" class="invisible">
+                                <a href="detail.php" class="invisible">
                                     <img src="img/product2.jpg" alt="" class="img-responsive">
                                 </a>
                                 <div class="text">
-                                    <h3><a href="detail.html">White Blouse Versace</a></h3>
+                                    <h3><a href="detail.php">White Blouse Versace</a></h3>
                                     <p class="price">$143.00</p>
-                                    <p class="buttons">
-                                        <a href="detail.html" class="btn btn-default">View detail</a>
-                                        <a href="basket.html" class="btn btn-primary"><i class="fa fa-shopping-cart"></i>Add to cart</a>
-                                    </p>
-
                                 </div>
                                 <!-- /.text -->
 
@@ -473,33 +474,28 @@
                             <!-- /.product -->
                         </div>
 
-                        <div class="col-md-3 col-sm-4">
+                        <div class="item">
                             <div class="product">
                                 <div class="flip-container">
                                     <div class="flipper">
                                         <div class="front">
-                                            <a href="detail.html">
+                                            <a href="detail.php">
                                                 <img src="img/product1.jpg" alt="" class="img-responsive">
                                             </a>
                                         </div>
                                         <div class="back">
-                                            <a href="detail.html">
+                                            <a href="detail.php">
                                                 <img src="img/product1_2.jpg" alt="" class="img-responsive">
                                             </a>
                                         </div>
                                     </div>
                                 </div>
-                                <a href="detail.html" class="invisible">
+                                <a href="detail.php" class="invisible">
                                     <img src="img/product1.jpg" alt="" class="img-responsive">
                                 </a>
                                 <div class="text">
-                                    <h3><a href="detail.html">Fur coat</a></h3>
+                                    <h3><a href="detail.php">Fur coat</a></h3>
                                     <p class="price">$143.00</p>
-                                    <p class="buttons">
-                                        <a href="detail.html" class="btn btn-default">View detail</a>
-                                        <a href="basket.html" class="btn btn-primary"><i class="fa fa-shopping-cart"></i>Add to cart</a>
-                                    </p>
-
                                 </div>
                                 <!-- /.text -->
 
@@ -514,32 +510,28 @@
                         </div>
                         <!-- /.col-md-4 -->
 
-                        <div class="col-md-3 col-sm-4">
+                        <div class="item">
                             <div class="product">
                                 <div class="flip-container">
                                     <div class="flipper">
                                         <div class="front">
-                                            <a href="detail.html">
+                                            <a href="detail.php">
                                                 <img src="img/product2.jpg" alt="" class="img-responsive">
                                             </a>
                                         </div>
                                         <div class="back">
-                                            <a href="detail.html">
+                                            <a href="detail.php">
                                                 <img src="img/product2_2.jpg" alt="" class="img-responsive">
                                             </a>
                                         </div>
                                     </div>
                                 </div>
-                                <a href="detail.html" class="invisible">
+                                <a href="detail.php" class="invisible">
                                     <img src="img/product2.jpg" alt="" class="img-responsive">
                                 </a>
                                 <div class="text">
-                                    <h3><a href="detail.html">White Blouse Armani</a></h3>
+                                    <h3><a href="detail.php">White Blouse Armani</a></h3>
                                     <p class="price"><del>$280</del> $143.00</p>
-                                    <p class="buttons">
-                                        <a href="detail.html" class="btn btn-default">View detail</a>
-                                        <a href="basket.html" class="btn btn-primary"><i class="fa fa-shopping-cart"></i>Add to cart</a>
-                                    </p>
                                 </div>
                                 <!-- /.text -->
 
@@ -564,33 +556,28 @@
                             <!-- /.product -->
                         </div>
 
-                        <div class="col-md-3 col-sm-4">
+                        <div class="item">
                             <div class="product">
                                 <div class="flip-container">
                                     <div class="flipper">
                                         <div class="front">
-                                            <a href="detail.html">
+                                            <a href="detail.php">
                                                 <img src="img/product3.jpg" alt="" class="img-responsive">
                                             </a>
                                         </div>
                                         <div class="back">
-                                            <a href="detail.html">
+                                            <a href="detail.php">
                                                 <img src="img/product3_2.jpg" alt="" class="img-responsive">
                                             </a>
                                         </div>
                                     </div>
                                 </div>
-                                <a href="detail.html" class="invisible">
+                                <a href="detail.php" class="invisible">
                                     <img src="img/product3.jpg" alt="" class="img-responsive">
                                 </a>
                                 <div class="text">
-                                    <h3><a href="detail.html">Black Blouse Versace</a></h3>
+                                    <h3><a href="detail.php">Black Blouse Versace</a></h3>
                                     <p class="price">$143.00</p>
-                                    <p class="buttons">
-                                        <a href="detail.html" class="btn btn-default">View detail</a>
-                                        <a href="basket.html" class="btn btn-primary"><i class="fa fa-shopping-cart"></i>Add to cart</a>
-                                    </p>
-
                                 </div>
                                 <!-- /.text -->
                             </div>
@@ -598,14 +585,101 @@
                         </div>
 
                     </div>
-                    <!-- /.products -->
+                    <!-- /.product-slider -->
+                </div>
+                <!-- /.container -->
 
+            </div>
+            <!-- /#hot -->
+
+            <!-- *** HOT END *** -->
+
+            <!-- *** GET INSPIRED ***
+ _________________________________________________________ -->
+            <div class="container" data-animate="fadeInUpBig">
+                <div class="col-md-12">
+                    <div class="box slideshow">
+                        <h3>Get Inspired</h3>
+                        <p class="lead">Get the inspiration from our world class designers</p>
+                        <div id="get-inspired" class="owl-carousel owl-theme">
+                            <div class="item">
+                                <a href="#">
+                                    <img src="img/getinspired1.jpg" alt="Get inspired" class="img-responsive">
+                                </a>
+                            </div>
+                            <div class="item">
+                                <a href="#">
+                                    <img src="img/getinspired2.jpg" alt="Get inspired" class="img-responsive">
+                                </a>
+                            </div>
+                            <div class="item">
+                                <a href="#">
+                                    <img src="img/getinspired3.jpg" alt="Get inspired" class="img-responsive">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- *** GET INSPIRED END *** -->
+
+            <!-- *** BLOG HOMEPAGE ***
+ _________________________________________________________ -->
+
+            <div class="box text-center" data-animate="fadeInUp">
+                <div class="container">
+                    <div class="col-md-12">
+                        <h3 class="text-uppercase">From our blog</h3>
+
+                        <p class="lead">What's new in the world of fashion? <a href="blog.php">Check our blog!</a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="container">
+
+                <div class="col-md-12" data-animate="fadeInUp">
+
+                    <div id="blog-homepage" class="row">
+                        <div class="col-sm-6">
+                            <div class="post">
+                                <h4><a href="post.php">Fashion now</a></h4>
+                                <p class="author-category">By <a href="#">John Slim</a> in <a href="">Fashion and style</a>
+                                </p>
+                                <hr>
+                                <p class="intro">Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean
+                                    ultricies mi vitae est. Mauris placerat eleifend leo.</p>
+                                <p class="read-more"><a href="post.php" class="btn btn-primary">Continue reading</a>
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class="col-sm-6">
+                            <div class="post">
+                                <h4><a href="post.php">Who is who - example blog post</a></h4>
+                                <p class="author-category">By <a href="#">John Slim</a> in <a href="">About Minimal</a>
+                                </p>
+                                <hr>
+                                <p class="intro">Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean
+                                    ultricies mi vitae est. Mauris placerat eleifend leo.</p>
+                                <p class="read-more"><a href="post.php" class="btn btn-primary">Continue reading</a>
+                                </p>
+                            </div>
+
+                        </div>
+
+                    </div>
+                    <!-- /#blog-homepage -->
                 </div>
             </div>
             <!-- /.container -->
+
+            <!-- *** BLOG HOMEPAGE END *** -->
+
+
         </div>
         <!-- /#content -->
-
 
         <!-- *** FOOTER ***
  _________________________________________________________ -->
@@ -616,11 +690,11 @@
                         <h4>Pages</h4>
 
                         <ul>
-                            <li><a href="text.html">About us</a>
+                            <li><a href="text.php">About us</a>
                             </li>
-                            <li><a href="faq.html">FAQ</a>
+                            <li><a href="faq.php">FAQ</a>
                             </li>
-                            <li><a href="contact.html">Contact us</a>
+                            <li><a href="contact.php">Contact us</a>
                             </li>
                         </ul>
 
@@ -631,7 +705,7 @@
                         <ul>
                             <li><a href="#" data-toggle="modal" data-target="#login-modal">Login</a>
                             </li>
-                            <li><a href="register.html">Regiter</a>
+                            <li><a href="register.php">Regiter</a>
                             </li>
                         </ul>
 
@@ -644,16 +718,16 @@
 
                         <h4>Top categories</h4>
                         <ul>
-                            <li><a href="category.html">Steam</a>
+                            <li><a href="category-steam.php">Steam</a>
                             </li>
-                            <li><a href="category.html">Line Store</a>
+                            <li><a href="category-line.php">Line Store</a>
                             </li>
-                            <li><a href="category.html">Xbox Live Gift Card</a>
+                            <li><a href="category-xbox.php">Xbox Live Gift Card</a>
                             </li>
                         
-                            <li><a href="category.html">I-Tunes Gift Card</a>
+                            <li><a href="category-itunes.php">I-Tunes Gift Card</a>
                             </li>
-                            <li><a href="category.html">Facebook Game Card</a>
+                            <li><a href="category-fb.php">Facebook Game Card</a>
                             </li>
                         </ul>
 
@@ -693,9 +767,9 @@
 
                                 <span class="input-group-btn">
 
-                <button class="btn btn-default" type="button">Subscribe!</button>
+			    <button class="btn btn-default" type="button">Subscribe!</button>
 
-            </span>
+			</span>
 
                             </div>
                             <!-- /input-group -->
@@ -765,7 +839,6 @@
     <script src="js/bootstrap-hover-dropdown.js"></script>
     <script src="js/owl.carousel.min.js"></script>
     <script src="js/front.js"></script>
-
 
 
 </body>

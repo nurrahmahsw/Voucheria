@@ -41,7 +41,6 @@
 </head>
 
 <body>
-
     <!-- *** TOPBAR ***
  _________________________________________________________ -->
     <div id="top">
@@ -51,9 +50,9 @@
                 <ul class="menu">
                     <li><a href="#" data-toggle="modal" data-target="#login-modal">Login</a>
                     </li>
-                    <li><a href="register.html">Register</a>
+                    <li><a href="register.php">Register</a>
                     </li>
-                    <li><a href="contact.html">Contact</a>
+                    <li><a href="contact.php">Contact</a>
                     </li>                    
                 </ul>
             </div>
@@ -67,7 +66,7 @@
                         <h4 class="modal-title" id="Login">Customer login</h4>
                     </div>
                     <div class="modal-body">
-                        <form action="customer-orders.html" method="post">
+                        <form action="customer-orders.php" method="post">
                             <div class="form-group">
                                 <input type="text" class="form-control" id="email-modal" placeholder="email">
                             </div>
@@ -82,7 +81,7 @@
                         </form>
 
                         <p class="text-center text-muted">Not registered yet?</p>
-                        <p class="text-center text-muted"><a href="register.html"><strong>Register now</strong></a>! It is easy and done in 1&nbsp;minute and gives you access to special discounts and much more!</p>
+                        <p class="text-center text-muted"><a href="register.php"><strong>Register now</strong></a>! It is easy and done in 1&nbsp;minute and gives you access to special discounts and much more!</p>
 
                     </div>
                 </div>
@@ -100,7 +99,7 @@
         <div class="container">
             <div class="navbar-header">
 
-                <a class="navbar-brand home" href="index.html" data-animate-hover="bounce">
+                <a class="navbar-brand home" href="index.php" data-animate-hover="bounce">
                     <img src="img/logo.png" alt="Obaju logo" class="hidden-xs">
                     <img src="img/logo-small.png" alt="Obaju logo" class="visible-xs"><span class="sr-only">Obaju - go to homepage</span>
                 </a>
@@ -113,7 +112,7 @@
                         <span class="sr-only">Toggle search</span>
                         <i class="fa fa-search"></i>
                     </button>
-                    <a class="btn btn-default navbar-toggle" href="basket.html">
+                    <a class="btn btn-default navbar-toggle" href="basket.php">
                         <i class="fa fa-shopping-cart"></i>  <span class="hidden-xs">3 items in cart</span>
                     </a>
                 </div>
@@ -123,7 +122,7 @@
             <div class="navbar-collapse collapse" id="navigation">
 
                 <ul class="nav navbar-nav navbar-left">
-                    <li class="active"><a href="index.html">Home</a>
+                    <li class="active"><a href="index.php">Home</a>
                     </li>
                     <li class="dropdown yamm-fw">
                         <a href="#" class="dropdown-toggle" data-toggle="dropdown" data-hover="dropdown" data-delay="200">Voucher Game <b class="caret"></b></a>
@@ -133,41 +132,41 @@
                                     <div class="row">
                                         <div class="col-sm-6">
                                             <ul>
-                                                <li><a href="category.html">I-Tunes Gift Card</a>
+                                                <li><a href="category-itunes.php">I-Tunes Gift Card</a>
                                                 </li>
-                                                <li><a href="category.html">Line Store</a>
+                                                <li><a href="category-line.php">Line Store</a>
                                                 </li>
-                                                <li><a href="category.html">PlayStation Network Card</a>
+                                                <li><a href="category-ps.php">PlayStation Network Card</a>
                                                 </li>
-                                                <li><a href="category.html">Xbox Live Gift Card</a>
+                                                <li><a href="category-xbox.php">Xbox Live Gift Card</a>
                                                 </li>
-                                                <li><a href="category.html">Travian</a>
+                                                <li><a href="category-travian.php">Travian</a>
                                                 </li>
-                                                <li><a href="category.html">LYTO Game</a>
+                                                <li><a href="category.php">LYTO Game</a>
                                                 </li>
-                                                <li><a href="category.html">Megaxus MI-Cash</a>
+                                                <li><a href="category.php">Megaxus MI-Cash</a>
                                                 </li>
-                                                <li><a href="category.html">WaveGame</a>
+                                                <li><a href="category.php">WaveGame</a>
                                                 </li>
-                                                <li><a href="category.html">Zynga</a>
+                                                <li><a href="category.php">Zynga</a>
                                                 </li>
-                                                <li><a href="category.html">MOGPlay</a>
+                                                <li><a href="category.php">MOGPlay</a>
                                                 </li>
-                                                <li><a href="category.html">Digi Game Card</a>
+                                                <li><a href="category.php">Digi Game Card</a>
                                                 </li>
                                             </ul>
                                         </div>
                                         <div class="col-sm-6">
                                             <ul>
-                                                <li><a href="category.html">Steam</a>
+                                                <li><a href="category.php">Steam</a>
                                                 </li>
-                                                <li><a href="category.html">Gerena Shells</a>
+                                                <li><a href="category.php">Gerena Shells</a>
                                                 </li>
-                                                <li><a href="category.html">Gemscool Cash</a>
+                                                <li><a href="category.php">Gemscool Cash</a>
                                                 </li>
-                                                <li><a href="category.html">Battle.net Balance Card</a>
+                                                <li><a href="category.php">Battle.net Balance Card</a>
                                                 </li>
-                                                <li><a href="category.html">Facebook Game Card</a>
+                                                <li><a href="category.php">Facebook Game Card</a>
                                                 </li>
                                             </ul>
                                         </div>
@@ -188,7 +187,7 @@
             <div class="navbar-buttons">
 
                 <div class="navbar-collapse collapse right" id="basket-overview">
-                    <a href="basket.html" class="btn btn-primary navbar-btn"><i class="fa fa-shopping-cart"></i><span class="hidden-sm">3 items in cart</span></a>
+                    <a href="basket.php" class="btn btn-primary navbar-btn"><i class="fa fa-shopping-cart"></i><span class="hidden-sm">3 items in cart</span></a>
                 </div>
                 <!--/.nav-collapse -->
 
@@ -208,9 +207,9 @@
                         <input type="text" class="form-control" placeholder="Search">
                         <span class="input-group-btn">
 
-			<button type="submit" class="btn btn-primary"><i class="fa fa-search"></i></button>
+            <button type="submit" class="btn btn-primary"><i class="fa fa-search"></i></button>
 
-		    </span>
+            </span>
                     </div>
                 </form>
 
@@ -224,462 +223,454 @@
 
     <!-- *** NAVBAR END *** -->
 
-
-
     <div id="all">
 
         <div id="content">
-
             <div class="container">
+
                 <div class="col-md-12">
-                    <div id="main-slider">
-                        <div class="item">
-                            <img src="img/main-slider1.jpg" alt="" class="img-responsive">
-                        </div>
-                        <div class="item">
-                            <img class="img-responsive" src="img/main-slider2.jpg" alt="">
-                        </div>
-                        <div class="item">
-                            <img class="img-responsive" src="img/main-slider3.jpg" alt="">
-                        </div>
-                        <div class="item">
-                            <img class="img-responsive" src="img/main-slider4.jpg" alt="">
-                        </div>
-                    </div>
-                    <!-- /#main-slider -->
-                </div>
-            </div>
+                    <ul class="breadcrumb">
+                        <li><a href="#">Home</a>
+                        </li>
+                        <li><a href="#">Ladies</a>
+                        </li>
+                        <li><a href="#">Tops</a>
+                        </li>
+                        <li>White Blouse Armani</li>
+                    </ul>
 
-            <!-- *** ADVANTAGES HOMEPAGE ***
+                </div>
+
+                <div class="col-md-3">
+                    <!-- *** MENUS AND FILTERS ***
  _________________________________________________________ -->
-            <div id="advantages">
+                    <div class="panel panel-default sidebar-menu">
 
-                <div class="container">
-                    <div class="same-height-row">
-                        <div class="col-sm-4">
-                            <div class="box same-height clickable">
-                                <div class="icon"><i class="fa fa-heart"></i>
-                                </div>
-
-                                <h3><a href="#">We love our customers</a></h3>
-                                <p>We are known to provide best possible service ever</p>
-                            </div>
+                        <div class="panel-heading">
+                            <h3 class="panel-title">Categories</h3>
                         </div>
 
-                        <div class="col-sm-4">
-                            <div class="box same-height clickable">
-                                <div class="icon"><i class="fa fa-tags"></i>
-                                </div>
+                        <div class="panel-body">
+                            <ul class="nav nav-pills nav-stacked category-menu">
+                                <li>
+                                    <a href="category.php">Men <span class="badge pull-right">42</span></a>
+                                    <ul>
+                                        <li><a href="category.php">T-shirts</a>
+                                        </li>
+                                        <li><a href="category.php">Shirts</a>
+                                        </li>
+                                        <li><a href="category.php">Pants</a>
+                                        </li>
+                                        <li><a href="category.php">Accessories</a>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li class="active">
+                                    <a href="category.php">Ladies  <span class="badge pull-right">123</span></a>
+                                    <ul>
+                                        <li><a href="category.php">T-shirts</a>
+                                        </li>
+                                        <li><a href="category.php">Skirts</a>
+                                        </li>
+                                        <li><a href="category.php">Pants</a>
+                                        </li>
+                                        <li><a href="category.php">Accessories</a>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <a href="category.php">Kids  <span class="badge pull-right">11</span></a>
+                                    <ul>
+                                        <li><a href="category.php">T-shirts</a>
+                                        </li>
+                                        <li><a href="category.php">Skirts</a>
+                                        </li>
+                                        <li><a href="category.php">Pants</a>
+                                        </li>
+                                        <li><a href="category.php">Accessories</a>
+                                        </li>
+                                    </ul>
+                                </li>
 
-                                <h3><a href="#">Best prices</a></h3>
-                                <p>You can check that the height of the boxes adjust when longer text like this one is used in one of them.</p>
-                            </div>
-                        </div>
+                            </ul>
 
-                        <div class="col-sm-4">
-                            <div class="box same-height clickable">
-                                <div class="icon"><i class="fa fa-thumbs-up"></i>
-                                </div>
-
-                                <h3><a href="#">100% satisfaction guaranteed</a></h3>
-                                <p>Free returns on everything for 3 months.</p>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- /.row -->
-
-                </div>
-                <!-- /.container -->
-
-            </div>
-            <!-- /#advantages -->
-
-            <!-- *** ADVANTAGES END *** -->
-
-            <!-- *** HOT PRODUCT SLIDESHOW ***
- _________________________________________________________ -->
-            <div id="hot">
-
-                <div class="box">
-                    <div class="container">
-                        <div class="col-md-12">
-                            <h2>Hot this week</h2>
                         </div>
                     </div>
+
+                    <div class="panel panel-default sidebar-menu">
+
+                        <div class="panel-heading">
+                            <h3 class="panel-title">Brands <a class="btn btn-xs btn-danger pull-right" href="#"><i class="fa fa-times-circle"></i> Clear</a></h3>
+                        </div>
+
+                        <div class="panel-body">
+
+                            <form>
+                                <div class="form-group">
+                                    <div class="checkbox">
+                                        <label>
+                                            <input type="checkbox">Armani (10)
+                                        </label>
+                                    </div>
+                                    <div class="checkbox">
+                                        <label>
+                                            <input type="checkbox">Versace (12)
+                                        </label>
+                                    </div>
+                                    <div class="checkbox">
+                                        <label>
+                                            <input type="checkbox">Carlo Bruni (15)
+                                        </label>
+                                    </div>
+                                    <div class="checkbox">
+                                        <label>
+                                            <input type="checkbox">Jack Honey (14)
+                                        </label>
+                                    </div>
+                                </div>
+
+                                <button class="btn btn-default btn-sm btn-primary"><i class="fa fa-pencil"></i> Apply</button>
+
+                            </form>
+
+                        </div>
+                    </div>
+
+                    <div class="panel panel-default sidebar-menu">
+
+                        <div class="panel-heading">
+                            <h3 class="panel-title">Colours <a class="btn btn-xs btn-danger pull-right" href="#"><i class="fa fa-times-circle"></i> Clear</a></h3>
+                        </div>
+
+                        <div class="panel-body">
+
+                            <form>
+                                <div class="form-group">
+                                    <div class="checkbox">
+                                        <label>
+                                            <input type="checkbox"> <span class="colour white"></span> White (14)
+                                        </label>
+                                    </div>
+                                    <div class="checkbox">
+                                        <label>
+                                            <input type="checkbox"> <span class="colour blue"></span> Blue (10)
+                                        </label>
+                                    </div>
+                                    <div class="checkbox">
+                                        <label>
+                                            <input type="checkbox"> <span class="colour green"></span> Green (20)
+                                        </label>
+                                    </div>
+                                    <div class="checkbox">
+                                        <label>
+                                            <input type="checkbox"> <span class="colour yellow"></span> Yellow (13)
+                                        </label>
+                                    </div>
+                                    <div class="checkbox">
+                                        <label>
+                                            <input type="checkbox"> <span class="colour red"></span> Red (10)
+                                        </label>
+                                    </div>
+                                </div>
+
+                                <button class="btn btn-default btn-sm btn-primary"><i class="fa fa-pencil"></i> Apply</button>
+
+                            </form>
+
+                        </div>
+                    </div>
+
+                    <!-- *** MENUS AND FILTERS END *** -->
+
+                    <div class="banner">
+                        <a href="#">
+                            <img src="img/banner.jpg" alt="sales 2014" class="img-responsive">
+                        </a>
+                    </div>
                 </div>
 
-                <div class="container">
-                    <div class="product-slider">
-                        <div class="item">
-                            <div class="product">
+                <div class="col-md-9">
+
+                    <div class="row" id="productMain">
+                        <div class="col-sm-6">
+                            <div id="mainImage">
+                                <img src="img/detailbig1.jpg" alt="" class="img-responsive">
+                            </div>
+
+                            <div class="ribbon sale">
+                                <div class="theribbon">SALE</div>
+                                <div class="ribbon-background"></div>
+                            </div>
+                            <!-- /.ribbon -->
+
+                            <div class="ribbon new">
+                                <div class="theribbon">NEW</div>
+                                <div class="ribbon-background"></div>
+                            </div>
+                            <!-- /.ribbon -->
+
+                        </div>
+                        <div class="col-sm-6">
+                            <div class="box">
+                                <h1 class="text-center">White Blouse Armani</h1>
+                                <p class="goToDescription"><a href="#details" class="scroll-to">Scroll to product details, material & care and sizing</a>
+                                </p>
+                                <p class="price">$124.00</p>
+
+                                <p class="text-center buttons">
+                                    <a href="basket.php" class="btn btn-primary"><i class="fa fa-shopping-cart"></i> Add to cart</a> 
+                                    <a href="basket.php" class="btn btn-default"><i class="fa fa-heart"></i> Add to wishlist</a>
+                                </p>
+
+
+                            </div>
+
+                            <div class="row" id="thumbs">
+                                <div class="col-xs-4">
+                                    <a href="img/detailbig1.jpg" class="thumb">
+                                        <img src="img/detailsquare.jpg" alt="" class="img-responsive">
+                                    </a>
+                                </div>
+                                <div class="col-xs-4">
+                                    <a href="img/detailbig2.jpg" class="thumb">
+                                        <img src="img/detailsquare2.jpg" alt="" class="img-responsive">
+                                    </a>
+                                </div>
+                                <div class="col-xs-4">
+                                    <a href="img/detailbig3.jpg" class="thumb">
+                                        <img src="img/detailsquare3.jpg" alt="" class="img-responsive">
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+
+
+                    <div class="box" id="details">
+                        <p>
+                            <h4>Product details</h4>
+                            <p>White lace top, woven, has a round neck, short sleeves, has knitted lining attached</p>
+                            <h4>Material & care</h4>
+                            <ul>
+                                <li>Polyester</li>
+                                <li>Machine wash</li>
+                            </ul>
+                            <h4>Size & Fit</h4>
+                            <ul>
+                                <li>Regular fit</li>
+                                <li>The model (height 5'8" and chest 33") is wearing a size S</li>
+                            </ul>
+
+                            <blockquote>
+                                <p><em>Define style this season with Armani's new range of trendy tops, crafted with intricate details. Create a chic statement look by teaming this lace number with skinny jeans and pumps.</em>
+                                </p>
+                            </blockquote>
+
+                            <hr>
+                            <div class="social">
+                                <h4>Show it to your friends</h4>
+                                <p>
+                                    <a href="#" class="external facebook" data-animate-hover="pulse"><i class="fa fa-facebook"></i></a>
+                                    <a href="#" class="external gplus" data-animate-hover="pulse"><i class="fa fa-google-plus"></i></a>
+                                    <a href="#" class="external twitter" data-animate-hover="pulse"><i class="fa fa-twitter"></i></a>
+                                    <a href="#" class="email" data-animate-hover="pulse"><i class="fa fa-envelope"></i></a>
+                                </p>
+                            </div>
+                    </div>
+
+                    <div class="row same-height-row">
+                        <div class="col-md-3 col-sm-6">
+                            <div class="box same-height">
+                                <h3>You may also like these products</h3>
+                            </div>
+                        </div>
+
+                        <div class="col-md-3 col-sm-6">
+                            <div class="product same-height">
                                 <div class="flip-container">
                                     <div class="flipper">
                                         <div class="front">
-                                            <a href="detail.html">
+                                            <a href="detail.php">
+                                                <img src="img/product2.jpg" alt="" class="img-responsive">
+                                            </a>
+                                        </div>
+                                        <div class="back">
+                                            <a href="detail.php">
+                                                <img src="img/product2_2.jpg" alt="" class="img-responsive">
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <a href="detail.php" class="invisible">
+                                    <img src="img/product2.jpg" alt="" class="img-responsive">
+                                </a>
+                                <div class="text">
+                                    <h3>Fur coat</h3>
+                                    <p class="price">$143</p>
+                                </div>
+                            </div>
+                            <!-- /.product -->
+                        </div>
+
+                        <div class="col-md-3 col-sm-6">
+                            <div class="product same-height">
+                                <div class="flip-container">
+                                    <div class="flipper">
+                                        <div class="front">
+                                            <a href="detail.php">
                                                 <img src="img/product1.jpg" alt="" class="img-responsive">
                                             </a>
                                         </div>
                                         <div class="back">
-                                            <a href="detail.html">
+                                            <a href="detail.php">
                                                 <img src="img/product1_2.jpg" alt="" class="img-responsive">
                                             </a>
                                         </div>
                                     </div>
                                 </div>
-                                <a href="detail.html" class="invisible">
+                                <a href="detail.php" class="invisible">
                                     <img src="img/product1.jpg" alt="" class="img-responsive">
                                 </a>
                                 <div class="text">
-                                    <h3><a href="detail.html">Fur coat with very but very very long name</a></h3>
-                                    <p class="price">$143.00</p>
+                                    <h3>Fur coat</h3>
+                                    <p class="price">$143</p>
                                 </div>
-                                <!-- /.text -->
                             </div>
                             <!-- /.product -->
                         </div>
 
-                        <div class="item">
-                            <div class="product">
+
+                        <div class="col-md-3 col-sm-6">
+                            <div class="product same-height">
                                 <div class="flip-container">
                                     <div class="flipper">
                                         <div class="front">
-                                            <a href="detail.html">
-                                                <img src="img/product2.jpg" alt="" class="img-responsive">
-                                            </a>
-                                        </div>
-                                        <div class="back">
-                                            <a href="detail.html">
-                                                <img src="img/product2_2.jpg" alt="" class="img-responsive">
-                                            </a>
-                                        </div>
-                                    </div>
-                                </div>
-                                <a href="detail.html" class="invisible">
-                                    <img src="img/product2.jpg" alt="" class="img-responsive">
-                                </a>
-                                <div class="text">
-                                    <h3><a href="detail.html">White Blouse Armani</a></h3>
-                                    <p class="price"><del>$280</del> $143.00</p>
-                                </div>
-                                <!-- /.text -->
-
-                                <div class="ribbon sale">
-                                    <div class="theribbon">SALE</div>
-                                    <div class="ribbon-background"></div>
-                                </div>
-                                <!-- /.ribbon -->
-
-                                <div class="ribbon new">
-                                    <div class="theribbon">NEW</div>
-                                    <div class="ribbon-background"></div>
-                                </div>
-                                <!-- /.ribbon -->
-
-                                <div class="ribbon gift">
-                                    <div class="theribbon">GIFT</div>
-                                    <div class="ribbon-background"></div>
-                                </div>
-                                <!-- /.ribbon -->
-                            </div>
-                            <!-- /.product -->
-                        </div>
-
-                        <div class="item">
-                            <div class="product">
-                                <div class="flip-container">
-                                    <div class="flipper">
-                                        <div class="front">
-                                            <a href="detail.html">
+                                            <a href="detail.php">
                                                 <img src="img/product3.jpg" alt="" class="img-responsive">
                                             </a>
                                         </div>
                                         <div class="back">
-                                            <a href="detail.html">
+                                            <a href="detail.php">
                                                 <img src="img/product3_2.jpg" alt="" class="img-responsive">
                                             </a>
                                         </div>
                                     </div>
                                 </div>
-                                <a href="detail.html" class="invisible">
+                                <a href="detail.php" class="invisible">
                                     <img src="img/product3.jpg" alt="" class="img-responsive">
                                 </a>
                                 <div class="text">
-                                    <h3><a href="detail.html">Black Blouse Versace</a></h3>
-                                    <p class="price">$143.00</p>
+                                    <h3>Fur coat</h3>
+                                    <p class="price">$143</p>
+
                                 </div>
-                                <!-- /.text -->
                             </div>
                             <!-- /.product -->
                         </div>
 
-                        <div class="item">
-                            <div class="product">
-                                <div class="flip-container">
-                                    <div class="flipper">
-                                        <div class="front">
-                                            <a href="detail.html">
-                                                <img src="img/product3.jpg" alt="" class="img-responsive">
-                                            </a>
-                                        </div>
-                                        <div class="back">
-                                            <a href="detail.html">
-                                                <img src="img/product3_2.jpg" alt="" class="img-responsive">
-                                            </a>
-                                        </div>
-                                    </div>
-                                </div>
-                                <a href="detail.html" class="invisible">
-                                    <img src="img/product3.jpg" alt="" class="img-responsive">
-                                </a>
-                                <div class="text">
-                                    <h3><a href="detail.html">Black Blouse Versace</a></h3>
-                                    <p class="price">$143.00</p>
-                                </div>
-                                <!-- /.text -->
+                    </div>
+
+                    <div class="row same-height-row">
+                        <div class="col-md-3 col-sm-6">
+                            <div class="box same-height">
+                                <h3>Products viewed recently</h3>
                             </div>
-                            <!-- /.product -->
                         </div>
 
-                        <div class="item">
-                            <div class="product">
+
+                        <div class="col-md-3 col-sm-6">
+                            <div class="product same-height">
                                 <div class="flip-container">
                                     <div class="flipper">
                                         <div class="front">
-                                            <a href="detail.html">
+                                            <a href="detail.php">
                                                 <img src="img/product2.jpg" alt="" class="img-responsive">
                                             </a>
                                         </div>
                                         <div class="back">
-                                            <a href="detail.html">
+                                            <a href="detail.php">
                                                 <img src="img/product2_2.jpg" alt="" class="img-responsive">
                                             </a>
                                         </div>
                                     </div>
                                 </div>
-                                <a href="detail.html" class="invisible">
+                                <a href="detail.php" class="invisible">
                                     <img src="img/product2.jpg" alt="" class="img-responsive">
                                 </a>
                                 <div class="text">
-                                    <h3><a href="detail.html">White Blouse Versace</a></h3>
-                                    <p class="price">$143.00</p>
+                                    <h3>Fur coat</h3>
+                                    <p class="price">$143</p>
                                 </div>
-                                <!-- /.text -->
-
-                                <div class="ribbon new">
-                                    <div class="theribbon">NEW</div>
-                                    <div class="ribbon-background"></div>
-                                </div>
-                                <!-- /.ribbon -->
                             </div>
                             <!-- /.product -->
                         </div>
 
-                        <div class="item">
-                            <div class="product">
+                        <div class="col-md-3 col-sm-6">
+                            <div class="product same-height">
                                 <div class="flip-container">
                                     <div class="flipper">
                                         <div class="front">
-                                            <a href="detail.html">
+                                            <a href="detail.php">
                                                 <img src="img/product1.jpg" alt="" class="img-responsive">
                                             </a>
                                         </div>
                                         <div class="back">
-                                            <a href="detail.html">
+                                            <a href="detail.php">
                                                 <img src="img/product1_2.jpg" alt="" class="img-responsive">
                                             </a>
                                         </div>
                                     </div>
                                 </div>
-                                <a href="detail.html" class="invisible">
+                                <a href="detail.php" class="invisible">
                                     <img src="img/product1.jpg" alt="" class="img-responsive">
                                 </a>
                                 <div class="text">
-                                    <h3><a href="detail.html">Fur coat</a></h3>
-                                    <p class="price">$143.00</p>
+                                    <h3>Fur coat</h3>
+                                    <p class="price">$143</p>
                                 </div>
-                                <!-- /.text -->
-
-                                <div class="ribbon gift">
-                                    <div class="theribbon">GIFT</div>
-                                    <div class="ribbon-background"></div>
-                                </div>
-                                <!-- /.ribbon -->
-
-                            </div>
-                            <!-- /.product -->
-                        </div>
-                        <!-- /.col-md-4 -->
-
-                        <div class="item">
-                            <div class="product">
-                                <div class="flip-container">
-                                    <div class="flipper">
-                                        <div class="front">
-                                            <a href="detail.html">
-                                                <img src="img/product2.jpg" alt="" class="img-responsive">
-                                            </a>
-                                        </div>
-                                        <div class="back">
-                                            <a href="detail.html">
-                                                <img src="img/product2_2.jpg" alt="" class="img-responsive">
-                                            </a>
-                                        </div>
-                                    </div>
-                                </div>
-                                <a href="detail.html" class="invisible">
-                                    <img src="img/product2.jpg" alt="" class="img-responsive">
-                                </a>
-                                <div class="text">
-                                    <h3><a href="detail.html">White Blouse Armani</a></h3>
-                                    <p class="price"><del>$280</del> $143.00</p>
-                                </div>
-                                <!-- /.text -->
-
-                                <div class="ribbon sale">
-                                    <div class="theribbon">SALE</div>
-                                    <div class="ribbon-background"></div>
-                                </div>
-                                <!-- /.ribbon -->
-
-                                <div class="ribbon new">
-                                    <div class="theribbon">NEW</div>
-                                    <div class="ribbon-background"></div>
-                                </div>
-                                <!-- /.ribbon -->
-
-                                <div class="ribbon gift">
-                                    <div class="theribbon">GIFT</div>
-                                    <div class="ribbon-background"></div>
-                                </div>
-                                <!-- /.ribbon -->
                             </div>
                             <!-- /.product -->
                         </div>
 
-                        <div class="item">
-                            <div class="product">
+
+                        <div class="col-md-3 col-sm-6">
+                            <div class="product same-height">
                                 <div class="flip-container">
                                     <div class="flipper">
                                         <div class="front">
-                                            <a href="detail.html">
+                                            <a href="detail.php">
                                                 <img src="img/product3.jpg" alt="" class="img-responsive">
                                             </a>
                                         </div>
                                         <div class="back">
-                                            <a href="detail.html">
+                                            <a href="detail.php">
                                                 <img src="img/product3_2.jpg" alt="" class="img-responsive">
                                             </a>
                                         </div>
                                     </div>
                                 </div>
-                                <a href="detail.html" class="invisible">
+                                <a href="detail.php" class="invisible">
                                     <img src="img/product3.jpg" alt="" class="img-responsive">
                                 </a>
                                 <div class="text">
-                                    <h3><a href="detail.html">Black Blouse Versace</a></h3>
-                                    <p class="price">$143.00</p>
+                                    <h3>Fur coat</h3>
+                                    <p class="price">$143</p>
+
                                 </div>
-                                <!-- /.text -->
                             </div>
                             <!-- /.product -->
                         </div>
 
                     </div>
-                    <!-- /.product-slider -->
+
                 </div>
-                <!-- /.container -->
-
-            </div>
-            <!-- /#hot -->
-
-            <!-- *** HOT END *** -->
-
-            <!-- *** GET INSPIRED ***
- _________________________________________________________ -->
-            <div class="container" data-animate="fadeInUpBig">
-                <div class="col-md-12">
-                    <div class="box slideshow">
-                        <h3>Get Inspired</h3>
-                        <p class="lead">Get the inspiration from our world class designers</p>
-                        <div id="get-inspired" class="owl-carousel owl-theme">
-                            <div class="item">
-                                <a href="#">
-                                    <img src="img/getinspired1.jpg" alt="Get inspired" class="img-responsive">
-                                </a>
-                            </div>
-                            <div class="item">
-                                <a href="#">
-                                    <img src="img/getinspired2.jpg" alt="Get inspired" class="img-responsive">
-                                </a>
-                            </div>
-                            <div class="item">
-                                <a href="#">
-                                    <img src="img/getinspired3.jpg" alt="Get inspired" class="img-responsive">
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <!-- *** GET INSPIRED END *** -->
-
-            <!-- *** BLOG HOMEPAGE ***
- _________________________________________________________ -->
-
-            <div class="box text-center" data-animate="fadeInUp">
-                <div class="container">
-                    <div class="col-md-12">
-                        <h3 class="text-uppercase">From our blog</h3>
-
-                        <p class="lead">What's new in the world of fashion? <a href="blog.html">Check our blog!</a>
-                        </p>
-                    </div>
-                </div>
-            </div>
-
-            <div class="container">
-
-                <div class="col-md-12" data-animate="fadeInUp">
-
-                    <div id="blog-homepage" class="row">
-                        <div class="col-sm-6">
-                            <div class="post">
-                                <h4><a href="post.html">Fashion now</a></h4>
-                                <p class="author-category">By <a href="#">John Slim</a> in <a href="">Fashion and style</a>
-                                </p>
-                                <hr>
-                                <p class="intro">Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean
-                                    ultricies mi vitae est. Mauris placerat eleifend leo.</p>
-                                <p class="read-more"><a href="post.html" class="btn btn-primary">Continue reading</a>
-                                </p>
-                            </div>
-                        </div>
-
-                        <div class="col-sm-6">
-                            <div class="post">
-                                <h4><a href="post.html">Who is who - example blog post</a></h4>
-                                <p class="author-category">By <a href="#">John Slim</a> in <a href="">About Minimal</a>
-                                </p>
-                                <hr>
-                                <p class="intro">Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean
-                                    ultricies mi vitae est. Mauris placerat eleifend leo.</p>
-                                <p class="read-more"><a href="post.html" class="btn btn-primary">Continue reading</a>
-                                </p>
-                            </div>
-
-                        </div>
-
-                    </div>
-                    <!-- /#blog-homepage -->
-                </div>
+                <!-- /.col-md-9 -->
             </div>
             <!-- /.container -->
-
-            <!-- *** BLOG HOMEPAGE END *** -->
-
-
         </div>
         <!-- /#content -->
+
 
         <!-- *** FOOTER ***
  _________________________________________________________ -->
@@ -690,11 +681,11 @@
                         <h4>Pages</h4>
 
                         <ul>
-                            <li><a href="text.html">About us</a>
+                            <li><a href="text.php">About us</a>
                             </li>
-                            <li><a href="faq.html">FAQ</a>
+                            <li><a href="faq.php">FAQ</a>
                             </li>
-                            <li><a href="contact.html">Contact us</a>
+                            <li><a href="contact.php">Contact us</a>
                             </li>
                         </ul>
 
@@ -705,7 +696,7 @@
                         <ul>
                             <li><a href="#" data-toggle="modal" data-target="#login-modal">Login</a>
                             </li>
-                            <li><a href="register.html">Regiter</a>
+                            <li><a href="register.php">Regiter</a>
                             </li>
                         </ul>
 
@@ -718,16 +709,16 @@
 
                         <h4>Top categories</h4>
                         <ul>
-                            <li><a href="category.html">Steam</a>
+                            <li><a href="category-steam.php">Steam</a>
                             </li>
-                            <li><a href="category.html">Line Store</a>
+                            <li><a href="category-line.php">Line Store</a>
                             </li>
-                            <li><a href="category.html">Xbox Live Gift Card</a>
+                            <li><a href="category-xbox.php">Xbox Live Gift Card</a>
                             </li>
                         
-                            <li><a href="category.html">I-Tunes Gift Card</a>
+                            <li><a href="category-itunes.php">I-Tunes Gift Card</a>
                             </li>
-                            <li><a href="category.html">Facebook Game Card</a>
+                            <li><a href="category-fb.php">Facebook Game Card</a>
                             </li>
                         </ul>
 
@@ -767,9 +758,9 @@
 
                                 <span class="input-group-btn">
 
-			    <button class="btn btn-default" type="button">Subscribe!</button>
+                <button class="btn btn-default" type="button">Subscribe!</button>
 
-			</span>
+            </span>
 
                             </div>
                             <!-- /input-group -->
@@ -839,6 +830,10 @@
     <script src="js/bootstrap-hover-dropdown.js"></script>
     <script src="js/owl.carousel.min.js"></script>
     <script src="js/front.js"></script>
+
+
+
+
 
 
 </body>

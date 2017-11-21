@@ -41,7 +41,7 @@
 </head>
 
 <body>
-    <!-- *** TOPBAR ***
+   <!-- *** TOPBAR ***
  _________________________________________________________ -->
     <div id="top">
         <div class="container">
@@ -50,9 +50,9 @@
                 <ul class="menu">
                     <li><a href="#" data-toggle="modal" data-target="#login-modal">Login</a>
                     </li>
-                    <li><a href="register.html">Register</a>
+                    <li><a href="register.php">Register</a>
                     </li>
-                    <li><a href="contact.html">Contact</a>
+                    <li><a href="contact.php">Contact</a>
                     </li>                    
                 </ul>
             </div>
@@ -66,7 +66,7 @@
                         <h4 class="modal-title" id="Login">Customer login</h4>
                     </div>
                     <div class="modal-body">
-                        <form action="customer-orders.html" method="post">
+                        <form action="customer-orders.php" method="post">
                             <div class="form-group">
                                 <input type="text" class="form-control" id="email-modal" placeholder="email">
                             </div>
@@ -81,7 +81,7 @@
                         </form>
 
                         <p class="text-center text-muted">Not registered yet?</p>
-                        <p class="text-center text-muted"><a href="register.html"><strong>Register now</strong></a>! It is easy and done in 1&nbsp;minute and gives you access to special discounts and much more!</p>
+                        <p class="text-center text-muted"><a href="register.php"><strong>Register now</strong></a>! It is easy and done in 1&nbsp;minute and gives you access to special discounts and much more!</p>
 
                     </div>
                 </div>
@@ -99,7 +99,7 @@
         <div class="container">
             <div class="navbar-header">
 
-                <a class="navbar-brand home" href="index.html" data-animate-hover="bounce">
+                <a class="navbar-brand home" href="index.php" data-animate-hover="bounce">
                     <img src="img/logo.png" alt="Obaju logo" class="hidden-xs">
                     <img src="img/logo-small.png" alt="Obaju logo" class="visible-xs"><span class="sr-only">Obaju - go to homepage</span>
                 </a>
@@ -112,7 +112,7 @@
                         <span class="sr-only">Toggle search</span>
                         <i class="fa fa-search"></i>
                     </button>
-                    <a class="btn btn-default navbar-toggle" href="basket.html">
+                    <a class="btn btn-default navbar-toggle" href="basket.php">
                         <i class="fa fa-shopping-cart"></i>  <span class="hidden-xs">3 items in cart</span>
                     </a>
                 </div>
@@ -122,7 +122,7 @@
             <div class="navbar-collapse collapse" id="navigation">
 
                 <ul class="nav navbar-nav navbar-left">
-                    <li class="active"><a href="index.html">Home</a>
+                    <li class="active"><a href="index.php">Home</a>
                     </li>
                     <li class="dropdown yamm-fw">
                         <a href="#" class="dropdown-toggle" data-toggle="dropdown" data-hover="dropdown" data-delay="200">Voucher Game <b class="caret"></b></a>
@@ -132,41 +132,41 @@
                                     <div class="row">
                                         <div class="col-sm-6">
                                             <ul>
-                                                <li><a href="category.html">I-Tunes Gift Card</a>
+                                                <li><a href="category-itunes.php">I-Tunes Gift Card</a>
                                                 </li>
-                                                <li><a href="category.html">Line Store</a>
+                                                <li><a href="category-line.php">Line Store</a>
                                                 </li>
-                                                <li><a href="category.html">PlayStation Network Card</a>
+                                                <li><a href="category-ps.php">PlayStation Network Card</a>
                                                 </li>
-                                                <li><a href="category.html">Xbox Live Gift Card</a>
+                                                <li><a href="category-xbox.php">Xbox Live Gift Card</a>
                                                 </li>
-                                                <li><a href="category.html">Travian</a>
+                                                <li><a href="category-travian.php">Travian</a>
                                                 </li>
-                                                <li><a href="category.html">LYTO Game</a>
+                                                <li><a href="category.php">LYTO Game</a>
                                                 </li>
-                                                <li><a href="category.html">Megaxus MI-Cash</a>
+                                                <li><a href="category.php">Megaxus MI-Cash</a>
                                                 </li>
-                                                <li><a href="category.html">WaveGame</a>
+                                                <li><a href="category.php">WaveGame</a>
                                                 </li>
-                                                <li><a href="category.html">Zynga</a>
+                                                <li><a href="category.php">Zynga</a>
                                                 </li>
-                                                <li><a href="category.html">MOGPlay</a>
+                                                <li><a href="category.php">MOGPlay</a>
                                                 </li>
-                                                <li><a href="category.html">Digi Game Card</a>
+                                                <li><a href="category.php">Digi Game Card</a>
                                                 </li>
                                             </ul>
                                         </div>
                                         <div class="col-sm-6">
                                             <ul>
-                                                <li><a href="category.html">Steam</a>
+                                                <li><a href="category.php">Steam</a>
                                                 </li>
-                                                <li><a href="category.html">Gerena Shells</a>
+                                                <li><a href="category.php">Gerena Shells</a>
                                                 </li>
-                                                <li><a href="category.html">Gemscool Cash</a>
+                                                <li><a href="category.php">Gemscool Cash</a>
                                                 </li>
-                                                <li><a href="category.html">Battle.net Balance Card</a>
+                                                <li><a href="category.php">Battle.net Balance Card</a>
                                                 </li>
-                                                <li><a href="category.html">Facebook Game Card</a>
+                                                <li><a href="category.php">Facebook Game Card</a>
                                                 </li>
                                             </ul>
                                         </div>
@@ -187,7 +187,7 @@
             <div class="navbar-buttons">
 
                 <div class="navbar-collapse collapse right" id="basket-overview">
-                    <a href="basket.html" class="btn btn-primary navbar-btn"><i class="fa fa-shopping-cart"></i><span class="hidden-sm">3 items in cart</span></a>
+                    <a href="basket.php" class="btn btn-primary navbar-btn"><i class="fa fa-shopping-cart"></i><span class="hidden-sm">3 items in cart</span></a>
                 </div>
                 <!--/.nav-collapse -->
 
@@ -229,174 +229,159 @@
             <div class="container">
 
                 <div class="col-md-12">
-
                     <ul class="breadcrumb">
                         <li><a href="#">Home</a>
                         </li>
-                        <li>My account</li>
+                        <li>Shopping cart</li>
                     </ul>
+                </div>
+
+                <div class="col-md-9" id="basket">
+
+                    <div class="box">
+
+                        <form method="post" action="checkout1.php">
+
+                            <h1>Shopping cart</h1>
+                            <p class="text-muted">You currently have 3 item(s) in your cart.</p>
+                            <div class="table-responsive">
+                                <table class="table">
+                                    <thead>
+                                        <tr>
+                                            <th colspan="2">Product</th>
+                                            <th>Quantity</th>
+                                            <th>Unit price</th>
+                                            <th>Discount</th>
+                                            <th colspan="2">Total</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <td>
+                                                <a href="#">
+                                                    <img src="img/detailsquare.jpg" alt="White Blouse Armani">
+                                                </a>
+                                            </td>
+                                            <td><a href="#">White Blouse Armani</a>
+                                            </td>
+                                            <td>
+                                                <input type="number" value="2" class="form-control">
+                                            </td>
+                                            <td>$123.00</td>
+                                            <td>$0.00</td>
+                                            <td>$246.00</td>
+                                            <td><a href="#"><i class="fa fa-trash-o"></i></a>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                                <a href="#">
+                                                    <img src="img/basketsquare.jpg" alt="Black Blouse Armani">
+                                                </a>
+                                            </td>
+                                            <td><a href="#">Black Blouse Armani</a>
+                                            </td>
+                                            <td>
+                                                <input type="number" value="1" class="form-control">
+                                            </td>
+                                            <td>$200.00</td>
+                                            <td>$0.00</td>
+                                            <td>$200.00</td>
+                                            <td><a href="#"><i class="fa fa-trash-o"></i></a>
+                                            </td>
+                                        </tr>
+                                    </tbody>
+                                    <tfoot>
+                                        <tr>
+                                            <th colspan="5">Total</th>
+                                            <th colspan="2">$446.00</th>
+                                        </tr>
+                                    </tfoot>
+                                </table>
+
+                            </div>
+                            <!-- /.table-responsive -->
+
+                            <div class="box-footer">
+                                <div class="pull-left">
+                                    <a href="category.php" class="btn btn-default"><i class="fa fa-chevron-left"></i> Continue shopping</a>
+                                </div>
+                                <div class="pull-right">
+                                    <!-- <button class="btn btn-default"><i class="fa fa-refresh"></i> Update basket</button> -->
+                                    <button type="submit" class="btn btn-primary">Proceed to checkout <i class="fa fa-chevron-right"></i>
+                                    </button>
+                                </div>
+                            </div>
+
+                        </form>
+
+                    </div>
+                    <!-- /.box -->
 
                 </div>
+                <!-- /.col-md-9 -->
 
                 <div class="col-md-3">
-                    <!-- *** CUSTOMER MENU ***
- _________________________________________________________ -->
-                    <div class="panel panel-default sidebar-menu">
-
-                        <div class="panel-heading">
-                            <h3 class="panel-title">Customer section</h3>
+                    <div class="box" id="order-summary">
+                        <div class="box-header">
+                            <h3>Order summary</h3>
                         </div>
+                        <p class="text-muted">Shipping and additional costs are calculated based on the values you have entered.</p>
 
-                        <div class="panel-body">
-
-                            <ul class="nav nav-pills nav-stacked">
-                                <li class="active">
-                                    <a href="customer-orders.html"><i class="fa fa-list"></i> My orders</a>
-                                </li>
-                                <li>
-                                    <a href="customer-wishlist.html"><i class="fa fa-heart"></i> My wishlist</a>
-                                </li>
-                                <li>
-                                    <a href="customer-account.html"><i class="fa fa-user"></i> My account</a>
-                                </li>
-                                <li>
-                                    <a href="index.html"><i class="fa fa-sign-out"></i> Logout</a>
-                                </li>
-                            </ul>
+                        <div class="table-responsive">
+                            <table class="table">
+                                <tbody>
+                                    <tr>
+                                        <td>Order subtotal</td>
+                                        <th>$446.00</th>
+                                    </tr>
+                                    <tr>
+                                        <td>Shipping and handling</td>
+                                        <th>$10.00</th>
+                                    </tr>
+                                    <tr>
+                                        <td>Tax</td>
+                                        <th>$0.00</th>
+                                    </tr>
+                                    <tr class="total">
+                                        <td>Total</td>
+                                        <th>$456.00</th>
+                                    </tr>
+                                </tbody>
+                            </table>
                         </div>
 
                     </div>
-                    <!-- /.col-md-3 -->
 
-                    <!-- *** CUSTOMER MENU END *** -->
-                </div>
 
-                <div class="col-md-9">
-                    <div class="box">
-                        <h1>My account</h1>
-                        <p class="lead">Change your personal details or your password here.</p>
-                        <p class="text-muted">Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.</p>
-
-                        <h3>Change password</h3>
-
+                        <!-- Coupon -->
+                    <!-- <div class="box">
+                        <div class="box-header">
+                            <h4>Coupon code</h4>
+                        </div>
+                        <p class="text-muted">If you have a coupon code, please enter it in the box below.</p>
                         <form>
-                            <div class="row">
-                                <div class="col-sm-6">
-                                    <div class="form-group">
-                                        <label for="password_old">Old password</label>
-                                        <input type="password" class="form-control" id="password_old">
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="row">
-                                <div class="col-sm-6">
-                                    <div class="form-group">
-                                        <label for="password_1">New password</label>
-                                        <input type="password" class="form-control" id="password_1">
-                                    </div>
-                                </div>
-                                <div class="col-sm-6">
-                                    <div class="form-group">
-                                        <label for="password_2">Retype new password</label>
-                                        <input type="password" class="form-control" id="password_2">
-                                    </div>
-                                </div>
-                            </div>
-                            <!-- /.row -->
+                            <div class="input-group">
 
-                            <div class="col-sm-12 text-center">
-                                <button type="submit" class="btn btn-primary"><i class="fa fa-save"></i> Save new password</button>
-                            </div>
-                        </form>
+                                <input type="text" class="form-control">
 
-                        <hr>
+                                <span class="input-group-btn">
 
-                        <h3>Personal details</h3>
-                        <form>
-                            <div class="row">
-                                <div class="col-sm-6">
-                                    <div class="form-group">
-                                        <label for="firstname">Firstname</label>
-                                        <input type="text" class="form-control" id="firstname">
-                                    </div>
-                                </div>
-                                <div class="col-sm-6">
-                                    <div class="form-group">
-                                        <label for="lastname">Lastname</label>
-                                        <input type="text" class="form-control" id="lastname">
-                                    </div>
-                                </div>
-                            </div>
-                            <!-- /.row -->
+					<button class="btn btn-primary" type="button"><i class="fa fa-gift"></i></button>
 
-                            <div class="row">
-                                <div class="col-sm-6">
-                                    <div class="form-group">
-                                        <label for="company">Company</label>
-                                        <input type="text" class="form-control" id="company">
-                                    </div>
-                                </div>
-                                <div class="col-sm-6">
-                                    <div class="form-group">
-                                        <label for="street">Street</label>
-                                        <input type="text" class="form-control" id="street">
-                                    </div>
-                                </div>
-                            </div>
-                            <!-- /.row -->
+				    </span>
+                            </div> -->
+                            <!-- /input-group -->
+                        <!-- </form>
+                    </div> -->
 
-                            <div class="row">
-                                <div class="col-sm-6 col-md-3">
-                                    <div class="form-group">
-                                        <label for="city">Company</label>
-                                        <input type="text" class="form-control" id="city">
-                                    </div>
-                                </div>
-                                <div class="col-sm-6 col-md-3">
-                                    <div class="form-group">
-                                        <label for="zip">ZIP</label>
-                                        <input type="text" class="form-control" id="zip">
-                                    </div>
-                                </div>
-                                <div class="col-sm-6 col-md-3">
-                                    <div class="form-group">
-                                        <label for="state">State</label>
-                                        <select class="form-control" id="state"></select>
-                                    </div>
-                                </div>
-                                <div class="col-sm-6 col-md-3">
-                                    <div class="form-group">
-                                        <label for="country">Country</label>
-                                        <select class="form-control" id="country"></select>
-                                    </div>
-                                </div>
-
-                                <div class="col-sm-6">
-                                    <div class="form-group">
-                                        <label for="phone">Telephone</label>
-                                        <input type="text" class="form-control" id="phone">
-                                    </div>
-                                </div>
-                                <div class="col-sm-6">
-                                    <div class="form-group">
-                                        <label for="email">Email</label>
-                                        <input type="text" class="form-control" id="email">
-                                    </div>
-                                </div>
-                                <div class="col-sm-12 text-center">
-                                    <button type="submit" class="btn btn-primary"><i class="fa fa-save"></i> Save changes</button>
-
-                                </div>
-                            </div>
-                        </form>
-                    </div>
                 </div>
+                <!-- /.col-md-3 -->
 
             </div>
             <!-- /.container -->
         </div>
         <!-- /#content -->
-
 
         <!-- *** FOOTER ***
  _________________________________________________________ -->
@@ -407,11 +392,11 @@
                         <h4>Pages</h4>
 
                         <ul>
-                            <li><a href="text.html">About us</a>
+                            <li><a href="text.php">About us</a>
                             </li>
-                            <li><a href="faq.html">FAQ</a>
+                            <li><a href="faq.php">FAQ</a>
                             </li>
-                            <li><a href="contact.html">Contact us</a>
+                            <li><a href="contact.php">Contact us</a>
                             </li>
                         </ul>
 
@@ -422,7 +407,7 @@
                         <ul>
                             <li><a href="#" data-toggle="modal" data-target="#login-modal">Login</a>
                             </li>
-                            <li><a href="register.html">Regiter</a>
+                            <li><a href="register.php">Regiter</a>
                             </li>
                         </ul>
 
@@ -435,16 +420,16 @@
 
                         <h4>Top categories</h4>
                         <ul>
-                            <li><a href="category.html">Steam</a>
+                            <li><a href="category-steam.php">Steam</a>
                             </li>
-                            <li><a href="category.html">Line Store</a>
+                            <li><a href="category-line.php">Line Store</a>
                             </li>
-                            <li><a href="category.html">Xbox Live Gift Card</a>
+                            <li><a href="category-xbox.php">Xbox Live Gift Card</a>
                             </li>
                         
-                            <li><a href="category.html">I-Tunes Gift Card</a>
+                            <li><a href="category-itunes.php">I-Tunes Gift Card</a>
                             </li>
-                            <li><a href="category.html">Facebook Game Card</a>
+                            <li><a href="category-fb.php">Facebook Game Card</a>
                             </li>
                         </ul>
 

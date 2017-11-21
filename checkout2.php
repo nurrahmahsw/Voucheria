@@ -50,9 +50,9 @@
                 <ul class="menu">
                     <li><a href="#" data-toggle="modal" data-target="#login-modal">Login</a>
                     </li>
-                    <li><a href="register.html">Register</a>
+                    <li><a href="register.php">Register</a>
                     </li>
-                    <li><a href="contact.html">Contact</a>
+                    <li><a href="contact.php">Contact</a>
                     </li>                    
                 </ul>
             </div>
@@ -66,7 +66,7 @@
                         <h4 class="modal-title" id="Login">Customer login</h4>
                     </div>
                     <div class="modal-body">
-                        <form action="customer-orders.html" method="post">
+                        <form action="customer-orders.php" method="post">
                             <div class="form-group">
                                 <input type="text" class="form-control" id="email-modal" placeholder="email">
                             </div>
@@ -81,7 +81,7 @@
                         </form>
 
                         <p class="text-center text-muted">Not registered yet?</p>
-                        <p class="text-center text-muted"><a href="register.html"><strong>Register now</strong></a>! It is easy and done in 1&nbsp;minute and gives you access to special discounts and much more!</p>
+                        <p class="text-center text-muted"><a href="register.php"><strong>Register now</strong></a>! It is easy and done in 1&nbsp;minute and gives you access to special discounts and much more!</p>
 
                     </div>
                 </div>
@@ -99,7 +99,7 @@
         <div class="container">
             <div class="navbar-header">
 
-                <a class="navbar-brand home" href="index.html" data-animate-hover="bounce">
+                <a class="navbar-brand home" href="index.php" data-animate-hover="bounce">
                     <img src="img/logo.png" alt="Obaju logo" class="hidden-xs">
                     <img src="img/logo-small.png" alt="Obaju logo" class="visible-xs"><span class="sr-only">Obaju - go to homepage</span>
                 </a>
@@ -112,7 +112,7 @@
                         <span class="sr-only">Toggle search</span>
                         <i class="fa fa-search"></i>
                     </button>
-                    <a class="btn btn-default navbar-toggle" href="basket.html">
+                    <a class="btn btn-default navbar-toggle" href="basket.php">
                         <i class="fa fa-shopping-cart"></i>  <span class="hidden-xs">3 items in cart</span>
                     </a>
                 </div>
@@ -122,7 +122,7 @@
             <div class="navbar-collapse collapse" id="navigation">
 
                 <ul class="nav navbar-nav navbar-left">
-                    <li class="active"><a href="index.html">Home</a>
+                    <li class="active"><a href="index.php">Home</a>
                     </li>
                     <li class="dropdown yamm-fw">
                         <a href="#" class="dropdown-toggle" data-toggle="dropdown" data-hover="dropdown" data-delay="200">Voucher Game <b class="caret"></b></a>
@@ -132,41 +132,41 @@
                                     <div class="row">
                                         <div class="col-sm-6">
                                             <ul>
-                                                <li><a href="category.html">I-Tunes Gift Card</a>
+                                                <li><a href="category-itunes.php">I-Tunes Gift Card</a>
                                                 </li>
-                                                <li><a href="category.html">Line Store</a>
+                                                <li><a href="category-line.php">Line Store</a>
                                                 </li>
-                                                <li><a href="category.html">PlayStation Network Card</a>
+                                                <li><a href="category-ps.php">PlayStation Network Card</a>
                                                 </li>
-                                                <li><a href="category.html">Xbox Live Gift Card</a>
+                                                <li><a href="category-xbox.php">Xbox Live Gift Card</a>
                                                 </li>
-                                                <li><a href="category.html">Travian</a>
+                                                <li><a href="category-travian.php">Travian</a>
                                                 </li>
-                                                <li><a href="category.html">LYTO Game</a>
+                                                <li><a href="category.php">LYTO Game</a>
                                                 </li>
-                                                <li><a href="category.html">Megaxus MI-Cash</a>
+                                                <li><a href="category.php">Megaxus MI-Cash</a>
                                                 </li>
-                                                <li><a href="category.html">WaveGame</a>
+                                                <li><a href="category.php">WaveGame</a>
                                                 </li>
-                                                <li><a href="category.html">Zynga</a>
+                                                <li><a href="category.php">Zynga</a>
                                                 </li>
-                                                <li><a href="category.html">MOGPlay</a>
+                                                <li><a href="category.php">MOGPlay</a>
                                                 </li>
-                                                <li><a href="category.html">Digi Game Card</a>
+                                                <li><a href="category.php">Digi Game Card</a>
                                                 </li>
                                             </ul>
                                         </div>
                                         <div class="col-sm-6">
                                             <ul>
-                                                <li><a href="category.html">Steam</a>
+                                                <li><a href="category.php">Steam</a>
                                                 </li>
-                                                <li><a href="category.html">Gerena Shells</a>
+                                                <li><a href="category.php">Gerena Shells</a>
                                                 </li>
-                                                <li><a href="category.html">Gemscool Cash</a>
+                                                <li><a href="category.php">Gemscool Cash</a>
                                                 </li>
-                                                <li><a href="category.html">Battle.net Balance Card</a>
+                                                <li><a href="category.php">Battle.net Balance Card</a>
                                                 </li>
-                                                <li><a href="category.html">Facebook Game Card</a>
+                                                <li><a href="category.php">Facebook Game Card</a>
                                                 </li>
                                             </ul>
                                         </div>
@@ -187,7 +187,7 @@
             <div class="navbar-buttons">
 
                 <div class="navbar-collapse collapse right" id="basket-overview">
-                    <a href="basket.html" class="btn btn-primary navbar-btn"><i class="fa fa-shopping-cart"></i><span class="hidden-sm">3 items in cart</span></a>
+                    <a href="basket.php" class="btn btn-primary navbar-btn"><i class="fa fa-shopping-cart"></i><span class="hidden-sm">3 items in cart</span></a>
                 </div>
                 <!--/.nav-collapse -->
 
@@ -229,74 +229,134 @@
             <div class="container">
 
                 <div class="col-md-12">
-
                     <ul class="breadcrumb">
                         <li><a href="#">Home</a>
                         </li>
-                        <li>New account / Sign in</li>
+                        <li>Checkout - Delivery method</li>
                     </ul>
-
                 </div>
 
-                <div class="col-md-6">
+                <div class="col-md-9" id="checkout">
+
                     <div class="box">
-                        <h1>New account</h1>
+                        <form method="post" action="checkout3.php">
+                            <h1>Checkout - Delivery method</h1>
+                            <ul class="nav nav-pills nav-justified">
+                                <li><a href="checkout1.php"><i class="fa fa-map-marker"></i><br>Address</a>
+                                </li>
+                                <li class="active"><a href="#"><i class="fa fa-truck"></i><br>Delivery Method</a>
+                                </li>
+                                <li class="disabled"><a href="#"><i class="fa fa-money"></i><br>Payment Method</a>
+                                </li>
+                                <li class="disabled"><a href="#"><i class="fa fa-eye"></i><br>Order Review</a>
+                                </li>
+                            </ul>
 
-                        <p class="lead">Not our registered customer yet?</p>
+                            <div class="content">
+                                <div class="row">
+                                    <div class="col-sm-6">
+                                        <div class="box shipping-method">
 
-                        <hr>
+                                            <h4>USPS Next Day</h4>
 
-                        <form action="customer-orders.html" method="post">
-                            <div class="form-group">
-                                <label for="name">Name</label>
-                                <input type="text" class="form-control" id="name">
+                                            <p>Get it right on next day - fastest option possible.</p>
+
+                                            <div class="box-footer text-center">
+
+                                                <input type="radio" name="delivery" value="delivery1">
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-6">
+                                        <div class="box shipping-method">
+
+                                            <h4>USPS Next Day</h4>
+
+                                            <p>Get it right on next day - fastest option possible.</p>
+
+                                            <div class="box-footer text-center">
+
+                                                <input type="radio" name="delivery" value="delivery2">
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="col-sm-6">
+                                        <div class="box shipping-method">
+
+                                            <h4>USPS Next Day</h4>
+
+                                            <p>Get it right on next day - fastest option possible.</p>
+
+                                            <div class="box-footer text-center">
+
+                                                <input type="radio" name="delivery" value="delivery3">
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- /.row -->
+
                             </div>
-                            <div class="form-group">
-                                <label for="email">Email</label>
-                                <input type="text" class="form-control" id="email">
-                            </div>
-                            <div class="form-group">
-                                <label for="password">Password</label>
-                                <input type="password" class="form-control" id="password">
-                            </div>
-                            <div class="text-center">
-                                <button type="submit" class="btn btn-primary"><i class="fa fa-user-md"></i> Register</button>
+                            <!-- /.content -->
+
+                            <div class="box-footer">
+                                <div class="pull-left">
+                                    <a href="basket.php" class="btn btn-default"><i class="fa fa-chevron-left"></i>Back to Addresses</a>
+                                </div>
+                                <div class="pull-right">
+                                    <button type="submit" class="btn btn-primary">Continue to Payment Method<i class="fa fa-chevron-right"></i>
+                                    </button>
+                                </div>
                             </div>
                         </form>
                     </div>
+                    <!-- /.box -->
+
+
                 </div>
+                <!-- /.col-md-9 -->
 
-                <div class="col-md-6">
-                    <div class="box">
-                        <h1>Login</h1>
+                <div class="col-md-3">
 
-                        <p class="lead">Already our customer?</p>
-                    
+                    <div class="box" id="order-summary">
+                        <div class="box-header">
+                            <h3>Order summary</h3>
+                        </div>
+                        <p class="text-muted">Shipping and additional costs are calculated based on the values you have entered.</p>
 
-                        <hr>
+                        <div class="table-responsive">
+                            <table class="table">
+                                <tbody>
+                                    <tr>
+                                        <td>Order subtotal</td>
+                                        <th>$446.00</th>
+                                    </tr>
+                                    <tr>
+                                        <td>Shipping and handling</td>
+                                        <th>$10.00</th>
+                                    </tr>
+                                    <tr>
+                                        <td>Tax</td>
+                                        <th>$0.00</th>
+                                    </tr>
+                                    <tr class="total">
+                                        <td>Total</td>
+                                        <th>$456.00</th>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
 
-                        <form action="customer-orders.html" method="post">
-                            <div class="form-group">
-                                <label for="email">Email</label>
-                                <input type="text" class="form-control" id="email">
-                            </div>
-                            <div class="form-group">
-                                <label for="password">Password</label>
-                                <input type="password" class="form-control" id="password">
-                            </div>
-                            <div class="text-center">
-                                <button type="submit" class="btn btn-primary"><i class="fa fa-sign-in"></i> Log in</button>
-                            </div>
-                        </form>
                     </div>
-                </div>
 
+                </div>
+                <!-- /.col-md-3 -->
 
             </div>
             <!-- /.container -->
         </div>
         <!-- /#content -->
-
 
         <!-- *** FOOTER ***
  _________________________________________________________ -->
@@ -307,11 +367,11 @@
                         <h4>Pages</h4>
 
                         <ul>
-                            <li><a href="text.html">About us</a>
+                            <li><a href="text.php">About us</a>
                             </li>
-                            <li><a href="faq.html">FAQ</a>
+                            <li><a href="faq.php">FAQ</a>
                             </li>
-                            <li><a href="contact.html">Contact us</a>
+                            <li><a href="contact.php">Contact us</a>
                             </li>
                         </ul>
 
@@ -322,7 +382,7 @@
                         <ul>
                             <li><a href="#" data-toggle="modal" data-target="#login-modal">Login</a>
                             </li>
-                            <li><a href="register.html">Regiter</a>
+                            <li><a href="register.php">Regiter</a>
                             </li>
                         </ul>
 
@@ -335,16 +395,16 @@
 
                         <h4>Top categories</h4>
                         <ul>
-                            <li><a href="category.html">Steam</a>
+                            <li><a href="category-steam.php">Steam</a>
                             </li>
-                            <li><a href="category.html">Line Store</a>
+                            <li><a href="category-line.php">Line Store</a>
                             </li>
-                            <li><a href="category.html">Xbox Live Gift Card</a>
+                            <li><a href="category-xbox.php">Xbox Live Gift Card</a>
                             </li>
                         
-                            <li><a href="category.html">I-Tunes Gift Card</a>
+                            <li><a href="category-itunes.php">I-Tunes Gift Card</a>
                             </li>
-                            <li><a href="category.html">Facebook Game Card</a>
+                            <li><a href="category-fb.php">Facebook Game Card</a>
                             </li>
                         </ul>
 
@@ -456,6 +516,9 @@
     <script src="js/bootstrap-hover-dropdown.js"></script>
     <script src="js/owl.carousel.min.js"></script>
     <script src="js/front.js"></script>
+
+
+
 
 
 

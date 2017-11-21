@@ -41,7 +41,7 @@
 </head>
 
 <body>
-    <!-- *** TOPBAR ***
+<!-- *** TOPBAR ***
  _________________________________________________________ -->
     <div id="top">
         <div class="container">
@@ -50,9 +50,9 @@
                 <ul class="menu">
                     <li><a href="#" data-toggle="modal" data-target="#login-modal">Login</a>
                     </li>
-                    <li><a href="register.html">Register</a>
+                    <li><a href="register.php">Register</a>
                     </li>
-                    <li><a href="contact.html">Contact</a>
+                    <li><a href="contact.php">Contact</a>
                     </li>                    
                 </ul>
             </div>
@@ -66,7 +66,7 @@
                         <h4 class="modal-title" id="Login">Customer login</h4>
                     </div>
                     <div class="modal-body">
-                        <form action="customer-orders.html" method="post">
+                        <form action="customer-orders.php" method="post">
                             <div class="form-group">
                                 <input type="text" class="form-control" id="email-modal" placeholder="email">
                             </div>
@@ -81,7 +81,7 @@
                         </form>
 
                         <p class="text-center text-muted">Not registered yet?</p>
-                        <p class="text-center text-muted"><a href="register.html"><strong>Register now</strong></a>! It is easy and done in 1&nbsp;minute and gives you access to special discounts and much more!</p>
+                        <p class="text-center text-muted"><a href="register.php"><strong>Register now</strong></a>! It is easy and done in 1&nbsp;minute and gives you access to special discounts and much more!</p>
 
                     </div>
                 </div>
@@ -99,7 +99,7 @@
         <div class="container">
             <div class="navbar-header">
 
-                <a class="navbar-brand home" href="index.html" data-animate-hover="bounce">
+                <a class="navbar-brand home" href="index.php" data-animate-hover="bounce">
                     <img src="img/logo.png" alt="Obaju logo" class="hidden-xs">
                     <img src="img/logo-small.png" alt="Obaju logo" class="visible-xs"><span class="sr-only">Obaju - go to homepage</span>
                 </a>
@@ -112,7 +112,7 @@
                         <span class="sr-only">Toggle search</span>
                         <i class="fa fa-search"></i>
                     </button>
-                    <a class="btn btn-default navbar-toggle" href="basket.html">
+                    <a class="btn btn-default navbar-toggle" href="basket.php">
                         <i class="fa fa-shopping-cart"></i>  <span class="hidden-xs">3 items in cart</span>
                     </a>
                 </div>
@@ -122,7 +122,7 @@
             <div class="navbar-collapse collapse" id="navigation">
 
                 <ul class="nav navbar-nav navbar-left">
-                    <li class="active"><a href="index.html">Home</a>
+                    <li class="active"><a href="index.php">Home</a>
                     </li>
                     <li class="dropdown yamm-fw">
                         <a href="#" class="dropdown-toggle" data-toggle="dropdown" data-hover="dropdown" data-delay="200">Voucher Game <b class="caret"></b></a>
@@ -132,41 +132,41 @@
                                     <div class="row">
                                         <div class="col-sm-6">
                                             <ul>
-                                                <li><a href="category.html">I-Tunes Gift Card</a>
+                                                <li><a href="category.php">I-Tunes Gift Card</a>
                                                 </li>
-                                                <li><a href="category.html">Line Store</a>
+                                                <li><a href="category.php">Line Store</a>
                                                 </li>
-                                                <li><a href="category.html">PlayStation Network Card</a>
+                                                <li><a href="category.php">PlayStation Network Card</a>
                                                 </li>
-                                                <li><a href="category.html">Xbox Live Gift Card</a>
+                                                <li><a href="category.php">Xbox Live Gift Card</a>
                                                 </li>
-                                                <li><a href="category.html">Travian</a>
+                                                <li><a href="category.php">Travian</a>
                                                 </li>
-                                                <li><a href="category.html">LYTO Game</a>
+                                                <li><a href="category.php">LYTO Game</a>
                                                 </li>
-                                                <li><a href="category.html">Megaxus MI-Cash</a>
+                                                <li><a href="category.php">Megaxus MI-Cash</a>
                                                 </li>
-                                                <li><a href="category.html">WaveGame</a>
+                                                <li><a href="category.php">WaveGame</a>
                                                 </li>
-                                                <li><a href="category.html">Zynga</a>
+                                                <li><a href="category.php">Zynga</a>
                                                 </li>
-                                                <li><a href="category.html">MOGPlay</a>
+                                                <li><a href="category.php">MOGPlay</a>
                                                 </li>
-                                                <li><a href="category.html">Digi Game Card</a>
+                                                <li><a href="category.php">Digi Game Card</a>
                                                 </li>
                                             </ul>
                                         </div>
                                         <div class="col-sm-6">
                                             <ul>
-                                                <li><a href="category.html">Steam</a>
+                                                <li><a href="category.php">Steam</a>
                                                 </li>
-                                                <li><a href="category.html">Gerena Shells</a>
+                                                <li><a href="category.php">Gerena Shells</a>
                                                 </li>
-                                                <li><a href="category.html">Gemscool Cash</a>
+                                                <li><a href="category.php">Gemscool Cash</a>
                                                 </li>
-                                                <li><a href="category.html">Battle.net Balance Card</a>
+                                                <li><a href="category.php">Battle.net Balance Card</a>
                                                 </li>
-                                                <li><a href="category.html">Facebook Game Card</a>
+                                                <li><a href="category.php">Facebook Game Card</a>
                                                 </li>
                                             </ul>
                                         </div>
@@ -187,7 +187,7 @@
             <div class="navbar-buttons">
 
                 <div class="navbar-collapse collapse right" id="basket-overview">
-                    <a href="basket.html" class="btn btn-primary navbar-btn"><i class="fa fa-shopping-cart"></i><span class="hidden-sm">3 items in cart</span></a>
+                    <a href="basket.php" class="btn btn-primary navbar-btn"><i class="fa fa-shopping-cart"></i><span class="hidden-sm">3 items in cart</span></a>
                 </div>
                 <!--/.nav-collapse -->
 
@@ -232,102 +232,99 @@
                     <ul class="breadcrumb">
                         <li><a href="#">Home</a>
                         </li>
-                        <li>Contact</li>
+                        <li>FAQ</li>
                     </ul>
 
                 </div>
 
-               
+                
 
                 <div class="col-md-12">
 
 
                     <div class="box" id="contact">
-                        <h1>Contact</h1>
+                        <h1>Frequently asked questions</h1>
 
                         <p class="lead">Are you curious about something? Do you have some kind of problem with our products?</p>
                         <p>Please feel free to contact us, our customer service center is working for you 24/7.</p>
 
                         <hr>
 
-                        <div class="row">
-                            <div class="col-sm-4">
-                                <h3><i class="fa fa-map-marker"></i> Address</h3>
-                                <p><strong>Voucheria</strong>
-                                    <br>Gedung SV UGM, Sekip Unit 1
-                                    <br>Catur Tunggal
-                                    <br>Depok, Sleman
-                                    <br>
-                                    <strong>Yogyakarta</strong>
-                                </p>
+                        <div class="panel-group" id="accordion">
+
+                            <div class="panel panel-primary">
+                                <div class="panel-heading">
+                                    <h4 class="panel-title">
+
+					    <a data-toggle="collapse" data-parent="#accordion" href="#faq1">
+
+						1. What to do if I have still not received the order?
+
+					    </a>
+
+					</h4>
+                                </div>
+                                <div id="faq1" class="panel-collapse collapse">
+                                    <div class="panel-body">
+                                        <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper.
+                                            Aenean ultricies mi vitae est. Mauris placerat eleifend leo.</p>
+                                        <ul>
+                                            <li>Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</li>
+                                            <li>Aliquam tincidunt mauris eu risus.</li>
+                                            <li>Vestibulum auctor dapibus neque.</li>
+                                        </ul>
+                                    </div>
+                                </div>
                             </div>
-                            <!-- /.col-sm-4 -->
-                            <div class="col-sm-4">
-                                <h3><i class="fa fa-phone"></i> Call center</h3>
-                                <p class="text-muted">This number is toll free if calling from Yogyakarta otherwise we advise you to use the electronic form of communication.</p>
-                                <p><strong>+621 1234 5678</strong>
-                                </p>
+                            <!-- /.panel -->
+
+                            <div class="panel panel-primary">
+                                <div class="panel-heading">
+                                    <h4 class="panel-title">
+
+					    <a data-toggle="collapse" data-parent="#accordion" href="#collapseTwo">
+
+						2. What are the postal rates?
+
+					    </a>
+
+					</h4>
+                                </div>
+                                <div id="collapseTwo" class="panel-collapse collapse">
+                                    <div class="panel-body">
+                                        Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird
+                                        on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat
+                                        craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+                                    </div>
+                                </div>
                             </div>
-                            <!-- /.col-sm-4 -->
-                            <div class="col-sm-4">
-                                <h3><i class="fa fa-envelope"></i> Electronic support</h3>
-                                <p class="text-muted">Please feel free to write an email to us or to use our electronic ticketing system.</p>
-                                <strong><a href="mailto:">info@voucheria.com</a></strong>
-                                 
+                            <!-- /.panel -->
+
+
+                            <div class="panel panel-primary">
+                                <div class="panel-heading">
+                                    <h4 class="panel-title">
+
+					    <a data-toggle="collapse" data-parent="#accordion" href="#collapseThree">
+
+						3. Do you send overseas?
+
+					    </a>
+
+					</h4>
+                                </div>
+                                <div id="collapseThree" class="panel-collapse collapse">
+                                    <div class="panel-body">
+                                        Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird
+                                        on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat
+                                        craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+                                    </div>
+                                </div>
                             </div>
-                            <!-- /.col-sm-4 -->
+                            <!-- /.panel -->
+
                         </div>
-                        <!-- /.row -->
-
-                        <hr>
-
-                        <!-- <div id="map">
-
-                        </div>
- -->
-<!--                         <hr> -->
-                        <h2>Contact form</h2>
-
-                        <form>
-                            <div class="row">
-                                <div class="col-sm-6">
-                                    <div class="form-group">
-                                        <label for="firstname">Firstname</label>
-                                        <input type="text" class="form-control" id="firstname">
-                                    </div>
-                                </div>
-                                <div class="col-sm-6">
-                                    <div class="form-group">
-                                        <label for="lastname">Lastname</label>
-                                        <input type="text" class="form-control" id="lastname">
-                                    </div>
-                                </div>
-                                <div class="col-sm-6">
-                                    <div class="form-group">
-                                        <label for="email">Email</label>
-                                        <input type="text" class="form-control" id="email">
-                                    </div>
-                                </div>
-                                <div class="col-sm-6">
-                                    <div class="form-group">
-                                        <label for="subject">Subject</label>
-                                        <input type="text" class="form-control" id="subject">
-                                    </div>
-                                </div>
-                                <div class="col-sm-12">
-                                    <div class="form-group">
-                                        <label for="message">Message</label>
-                                        <textarea id="message" class="form-control"></textarea>
-                                    </div>
-                                </div>
-
-                                <div class="col-sm-12 text-center">
-                                    <button type="submit" class="btn btn-primary"><i class="fa fa-envelope-o"></i> Send message</button>
-
-                                </div>
-                            </div>
-                            <!-- /.row -->
-                        </form>
+                        <!-- /.panel-group -->
 
 
                     </div>
@@ -341,7 +338,7 @@
         <!-- /#content -->
 
 
-        <!-- *** FOOTER ***
+       <!-- *** FOOTER ***
  _________________________________________________________ -->
         <div id="footer" data-animate="fadeInUp">
             <div class="container">
@@ -350,11 +347,11 @@
                         <h4>Pages</h4>
 
                         <ul>
-                            <li><a href="text.html">About us</a>
+                            <li><a href="text.php">About us</a>
                             </li>
-                            <li><a href="faq.html">FAQ</a>
+                            <li><a href="faq.php">FAQ</a>
                             </li>
-                            <li><a href="contact.html">Contact us</a>
+                            <li><a href="contact.php">Contact us</a>
                             </li>
                         </ul>
 
@@ -365,7 +362,7 @@
                         <ul>
                             <li><a href="#" data-toggle="modal" data-target="#login-modal">Login</a>
                             </li>
-                            <li><a href="register.html">Regiter</a>
+                            <li><a href="register.php">Regiter</a>
                             </li>
                         </ul>
 
@@ -378,16 +375,16 @@
 
                         <h4>Top categories</h4>
                         <ul>
-                            <li><a href="category.html">Steam</a>
+                            <li><a href="category-steam.php">Steam</a>
                             </li>
-                            <li><a href="category.html">Line Store</a>
+                            <li><a href="category-line.php">Line Store</a>
                             </li>
-                            <li><a href="category.html">Xbox Live Gift Card</a>
+                            <li><a href="category-xbox.php">Xbox Live Gift Card</a>
                             </li>
                         
-                            <li><a href="category.html">I-Tunes Gift Card</a>
+                            <li><a href="category-itunes.php">I-Tunes Gift Card</a>
                             </li>
-                            <li><a href="category.html">Facebook Game Card</a>
+                            <li><a href="category-fb.php">Facebook Game Card</a>
                             </li>
                         </ul>
 
@@ -500,31 +497,6 @@
     <script src="js/owl.carousel.min.js"></script>
     <script src="js/front.js"></script>
 
-
-
-
-    <script src="https://maps.googleapis.com/maps/api/js?v=3.exp&amp;sensor=false"></script>
-
-    <script>
-        function initialize() {
-            var mapOptions = {
-                zoom: 15,
-                center: new google.maps.LatLng(49.1678136, 16.5671893),
-                mapTypeId: google.maps.MapTypeId.ROAD,
-                scrollwheel: false
-            }
-            var map = new google.maps.Map(document.getElementById('map'),
-                mapOptions);
-
-            var myLatLng = new google.maps.LatLng(49.1681989, 16.5650808);
-            var marker = new google.maps.Marker({
-                position: myLatLng,
-                map: map
-            });
-        }
-
-        google.maps.event.addDomListener(window, 'load', initialize);
-    </script>
 
 
 </body>
