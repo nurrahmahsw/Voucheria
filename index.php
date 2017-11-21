@@ -51,9 +51,9 @@
                 <ul class="menu">
                     <li><a href="#" data-toggle="modal" data-target="#login-modal">Login</a>
                     </li>
-                    <li><a href="register.html">Register</a>
+                    <li><a href="register.php">Register</a>
                     </li>
-                    <li><a href="contact.html">Contact</a>
+                    <li><a href="contact.php">Contact</a>
                     </li>                    
                 </ul>
             </div>
@@ -67,7 +67,7 @@
                         <h4 class="modal-title" id="Login">Customer login</h4>
                     </div>
                     <div class="modal-body">
-                        <form action="customer-orders.html" method="post">
+                        <form action="customer-orders.php" method="post">
                             <div class="form-group">
                                 <input type="text" class="form-control" id="email-modal" placeholder="email">
                             </div>
@@ -82,7 +82,7 @@
                         </form>
 
                         <p class="text-center text-muted">Not registered yet?</p>
-                        <p class="text-center text-muted"><a href="register.html"><strong>Register now</strong></a>! It is easy and done in 1&nbsp;minute and gives you access to special discounts and much more!</p>
+                        <p class="text-center text-muted"><a href="register.php"><strong>Register now</strong></a>! It is easy and done in 1&nbsp;minute and gives you access to special discounts and much more!</p>
 
                     </div>
                 </div>
@@ -100,7 +100,7 @@
         <div class="container">
             <div class="navbar-header">
 
-                <a class="navbar-brand home" href="index.html" data-animate-hover="bounce">
+                <a class="navbar-brand home" href="index.php" data-animate-hover="bounce">
                     <img src="img/logo.png" alt="Obaju logo" class="hidden-xs">
                     <img src="img/logo-small.png" alt="Obaju logo" class="visible-xs"><span class="sr-only">Obaju - go to homepage</span>
                 </a>
@@ -113,7 +113,7 @@
                         <span class="sr-only">Toggle search</span>
                         <i class="fa fa-search"></i>
                     </button>
-                    <a class="btn btn-default navbar-toggle" href="basket.html">
+                    <a class="btn btn-default navbar-toggle" href="basket.php">
                         <i class="fa fa-shopping-cart"></i>  <span class="hidden-xs">3 items in cart</span>
                     </a>
                 </div>
@@ -123,7 +123,7 @@
             <div class="navbar-collapse collapse" id="navigation">
 
                 <ul class="nav navbar-nav navbar-left">
-                    <li class="active"><a href="index.html">Home</a>
+                    <li class="active"><a href="index.php">Home</a>
                     </li>
                     <li class="dropdown yamm-fw">
                         <a href="#" class="dropdown-toggle" data-toggle="dropdown" data-hover="dropdown" data-delay="200">Voucher Game <b class="caret"></b></a>
@@ -133,43 +133,41 @@
                                     <div class="row">
                                         <div class="col-sm-6">
                                             <ul>
-                                                <li><a href="category-itunes.html">I-Tunes Gift Card</a>
+                                                <li><a href="category-itunes.php">I-Tunes Gift Card</a>
                                                 </li>
-                                                <li><a href="category-line.html">Line Store</a>
+                                                <li><a href="category-line.php">Line Store</a>
                                                 </li>
-                                                <li><a href="category.html">PlayStation Network Card</a>
+                                                <li><a href="category-ps.php">PlayStation Network Card</a>
                                                 </li>
-                                                <li><a href="category.html">Xbox Live Gift Card</a>
+                                                <li><a href="category-xbox.php">Xbox Live Gift Card</a>
                                                 </li>
-                                                <li><a href="category.html">Travian</a>
+                                                <li><a href="category-travian.php">Travian</a>
                                                 </li>
-                                                <li><a href="category.html">LYTO Game</a>
+                                                <li><a href="category.php">LYTO Game</a>
                                                 </li>
-                                                <li><a href="category-megaxus.html">Megaxus MI-Cash</a>
+                                                <li><a href="category.php">Megaxus MI-Cash</a>
                                                 </li>
-                                                <li><a href="category-wavegame.html">WaveGame</a>
+                                                <li><a href="category.php">WaveGame</a>
                                                 </li>
-                                                <li><a href="category-zynga.html">Zynga</a>
+                                                <li><a href="category-zynga.php">Zynga</a>
                                                 </li>
-                                                <li><a href="category-mogplay.html">MOGPlay</a>
+                                                <li><a href="category-mogplay.php">MOGPlay</a>
                                                 </li>
-                                                <li><a href="category-digigame.html">Digi Game Card</a>
-                                                </li>
-                                                <li><a href="category-facebook.html">Facebook Game Card</a>
+                                                <li><a href="category-digigame.php">Digi Game Card</a>
                                                 </li>
                                             </ul>
                                         </div>
                                         <div class="col-sm-6">
                                             <ul>
-                                                <li><a href="category.html">Steam</a>
+                                                <li><a href="category.php">Steam</a>
                                                 </li>
-                                                <li><a href="category.html">Gerena Shells</a>
+                                                <li><a href="category.php">Gerena Shells</a>
                                                 </li>
-                                                <li><a href="category.html">Gemscool Cash</a>
+                                                <li><a href="category.php">Gemscool Cash</a>
                                                 </li>
-                                                <li><a href="category.html">Battle.net Balance Card</a>
+                                                <li><a href="category.php">Battle.net Balance Card</a>
                                                 </li>
-                                                <li><a href="category.html">Facebook Game Card</a>
+                                                <li><a href="category-facebook.php">Facebook Game Card</a>
                                                 </li>
                                             </ul>
                                         </div>
@@ -190,7 +188,7 @@
             <div class="navbar-buttons">
 
                 <div class="navbar-collapse collapse right" id="basket-overview">
-                    <a href="basket.html" class="btn btn-primary navbar-btn"><i class="fa fa-shopping-cart"></i><span class="hidden-sm">3 items in cart</span></a>
+                    <a href="basket.php" class="btn btn-primary navbar-btn"><i class="fa fa-shopping-cart"></i><span class="hidden-sm">3 items in cart</span></a>
                 </div>
                 <!--/.nav-collapse -->
 
@@ -317,22 +315,22 @@
                                 <div class="flip-container">
                                     <div class="flipper">
                                         <div class="front">
-                                            <a href="detail.html">
+                                            <a href="detail.php">
                                                 <img src="img/product1.jpg" alt="" class="img-responsive">
                                             </a>
                                         </div>
                                         <div class="back">
-                                            <a href="detail.html">
+                                            <a href="detail.php">
                                                 <img src="img/product1_2.jpg" alt="" class="img-responsive">
                                             </a>
                                         </div>
                                     </div>
                                 </div>
-                                <a href="detail.html" class="invisible">
+                                <a href="detail.php" class="invisible">
                                     <img src="img/product1.jpg" alt="" class="img-responsive">
                                 </a>
                                 <div class="text">
-                                    <h3><a href="detail.html">Fur coat with very but very very long name</a></h3>
+                                    <h3><a href="detail.php">Fur coat with very but very very long name</a></h3>
                                     <p class="price">$143.00</p>
                                 </div>
                                 <!-- /.text -->
@@ -345,22 +343,22 @@
                                 <div class="flip-container">
                                     <div class="flipper">
                                         <div class="front">
-                                            <a href="detail.html">
+                                            <a href="detail.php">
                                                 <img src="img/product2.jpg" alt="" class="img-responsive">
                                             </a>
                                         </div>
                                         <div class="back">
-                                            <a href="detail.html">
+                                            <a href="detail.php">
                                                 <img src="img/product2_2.jpg" alt="" class="img-responsive">
                                             </a>
                                         </div>
                                     </div>
                                 </div>
-                                <a href="detail.html" class="invisible">
+                                <a href="detail.php" class="invisible">
                                     <img src="img/product2.jpg" alt="" class="img-responsive">
                                 </a>
                                 <div class="text">
-                                    <h3><a href="detail.html">White Blouse Armani</a></h3>
+                                    <h3><a href="detail.php">White Blouse Armani</a></h3>
                                     <p class="price"><del>$280</del> $143.00</p>
                                 </div>
                                 <!-- /.text -->
@@ -391,22 +389,22 @@
                                 <div class="flip-container">
                                     <div class="flipper">
                                         <div class="front">
-                                            <a href="detail.html">
+                                            <a href="detail.php">
                                                 <img src="img/product3.jpg" alt="" class="img-responsive">
                                             </a>
                                         </div>
                                         <div class="back">
-                                            <a href="detail.html">
+                                            <a href="detail.php">
                                                 <img src="img/product3_2.jpg" alt="" class="img-responsive">
                                             </a>
                                         </div>
                                     </div>
                                 </div>
-                                <a href="detail.html" class="invisible">
+                                <a href="detail.php" class="invisible">
                                     <img src="img/product3.jpg" alt="" class="img-responsive">
                                 </a>
                                 <div class="text">
-                                    <h3><a href="detail.html">Black Blouse Versace</a></h3>
+                                    <h3><a href="detail.php">Black Blouse Versace</a></h3>
                                     <p class="price">$143.00</p>
                                 </div>
                                 <!-- /.text -->
@@ -419,22 +417,22 @@
                                 <div class="flip-container">
                                     <div class="flipper">
                                         <div class="front">
-                                            <a href="detail.html">
+                                            <a href="detail.php">
                                                 <img src="img/product3.jpg" alt="" class="img-responsive">
                                             </a>
                                         </div>
                                         <div class="back">
-                                            <a href="detail.html">
+                                            <a href="detail.php">
                                                 <img src="img/product3_2.jpg" alt="" class="img-responsive">
                                             </a>
                                         </div>
                                     </div>
                                 </div>
-                                <a href="detail.html" class="invisible">
+                                <a href="detail.php" class="invisible">
                                     <img src="img/product3.jpg" alt="" class="img-responsive">
                                 </a>
                                 <div class="text">
-                                    <h3><a href="detail.html">Black Blouse Versace</a></h3>
+                                    <h3><a href="detail.php">Black Blouse Versace</a></h3>
                                     <p class="price">$143.00</p>
                                 </div>
                                 <!-- /.text -->
@@ -447,22 +445,22 @@
                                 <div class="flip-container">
                                     <div class="flipper">
                                         <div class="front">
-                                            <a href="detail.html">
+                                            <a href="detail.php">
                                                 <img src="img/product2.jpg" alt="" class="img-responsive">
                                             </a>
                                         </div>
                                         <div class="back">
-                                            <a href="detail.html">
+                                            <a href="detail.php">
                                                 <img src="img/product2_2.jpg" alt="" class="img-responsive">
                                             </a>
                                         </div>
                                     </div>
                                 </div>
-                                <a href="detail.html" class="invisible">
+                                <a href="detail.php" class="invisible">
                                     <img src="img/product2.jpg" alt="" class="img-responsive">
                                 </a>
                                 <div class="text">
-                                    <h3><a href="detail.html">White Blouse Versace</a></h3>
+                                    <h3><a href="detail.php">White Blouse Versace</a></h3>
                                     <p class="price">$143.00</p>
                                 </div>
                                 <!-- /.text -->
@@ -481,22 +479,22 @@
                                 <div class="flip-container">
                                     <div class="flipper">
                                         <div class="front">
-                                            <a href="detail.html">
+                                            <a href="detail.php">
                                                 <img src="img/product1.jpg" alt="" class="img-responsive">
                                             </a>
                                         </div>
                                         <div class="back">
-                                            <a href="detail.html">
+                                            <a href="detail.php">
                                                 <img src="img/product1_2.jpg" alt="" class="img-responsive">
                                             </a>
                                         </div>
                                     </div>
                                 </div>
-                                <a href="detail.html" class="invisible">
+                                <a href="detail.php" class="invisible">
                                     <img src="img/product1.jpg" alt="" class="img-responsive">
                                 </a>
                                 <div class="text">
-                                    <h3><a href="detail.html">Fur coat</a></h3>
+                                    <h3><a href="detail.php">Fur coat</a></h3>
                                     <p class="price">$143.00</p>
                                 </div>
                                 <!-- /.text -->
@@ -517,22 +515,22 @@
                                 <div class="flip-container">
                                     <div class="flipper">
                                         <div class="front">
-                                            <a href="detail.html">
+                                            <a href="detail.php">
                                                 <img src="img/product2.jpg" alt="" class="img-responsive">
                                             </a>
                                         </div>
                                         <div class="back">
-                                            <a href="detail.html">
+                                            <a href="detail.php">
                                                 <img src="img/product2_2.jpg" alt="" class="img-responsive">
                                             </a>
                                         </div>
                                     </div>
                                 </div>
-                                <a href="detail.html" class="invisible">
+                                <a href="detail.php" class="invisible">
                                     <img src="img/product2.jpg" alt="" class="img-responsive">
                                 </a>
                                 <div class="text">
-                                    <h3><a href="detail.html">White Blouse Armani</a></h3>
+                                    <h3><a href="detail.php">White Blouse Armani</a></h3>
                                     <p class="price"><del>$280</del> $143.00</p>
                                 </div>
                                 <!-- /.text -->
@@ -563,22 +561,22 @@
                                 <div class="flip-container">
                                     <div class="flipper">
                                         <div class="front">
-                                            <a href="detail.html">
+                                            <a href="detail.php">
                                                 <img src="img/product3.jpg" alt="" class="img-responsive">
                                             </a>
                                         </div>
                                         <div class="back">
-                                            <a href="detail.html">
+                                            <a href="detail.php">
                                                 <img src="img/product3_2.jpg" alt="" class="img-responsive">
                                             </a>
                                         </div>
                                     </div>
                                 </div>
-                                <a href="detail.html" class="invisible">
+                                <a href="detail.php" class="invisible">
                                     <img src="img/product3.jpg" alt="" class="img-responsive">
                                 </a>
                                 <div class="text">
-                                    <h3><a href="detail.html">Black Blouse Versace</a></h3>
+                                    <h3><a href="detail.php">Black Blouse Versace</a></h3>
                                     <p class="price">$143.00</p>
                                 </div>
                                 <!-- /.text -->
@@ -633,7 +631,7 @@
                     <div class="col-md-12">
                         <h3 class="text-uppercase">From our blog</h3>
 
-                        <p class="lead">What's new in the world of fashion? <a href="blog.html">Check our blog!</a>
+                        <p class="lead">What's new in the world of fashion? <a href="blog.php">Check our blog!</a>
                         </p>
                     </div>
                 </div>
@@ -646,26 +644,26 @@
                     <div id="blog-homepage" class="row">
                         <div class="col-sm-6">
                             <div class="post">
-                                <h4><a href="post.html">Fashion now</a></h4>
+                                <h4><a href="post.php">Fashion now</a></h4>
                                 <p class="author-category">By <a href="#">John Slim</a> in <a href="">Fashion and style</a>
                                 </p>
                                 <hr>
                                 <p class="intro">Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean
                                     ultricies mi vitae est. Mauris placerat eleifend leo.</p>
-                                <p class="read-more"><a href="post.html" class="btn btn-primary">Continue reading</a>
+                                <p class="read-more"><a href="post.php" class="btn btn-primary">Continue reading</a>
                                 </p>
                             </div>
                         </div>
 
                         <div class="col-sm-6">
                             <div class="post">
-                                <h4><a href="post.html">Who is who - example blog post</a></h4>
+                                <h4><a href="post.php">Who is who - example blog post</a></h4>
                                 <p class="author-category">By <a href="#">John Slim</a> in <a href="">About Minimal</a>
                                 </p>
                                 <hr>
                                 <p class="intro">Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean
                                     ultricies mi vitae est. Mauris placerat eleifend leo.</p>
-                                <p class="read-more"><a href="post.html" class="btn btn-primary">Continue reading</a>
+                                <p class="read-more"><a href="post.php" class="btn btn-primary">Continue reading</a>
                                 </p>
                             </div>
 
@@ -692,11 +690,11 @@
                         <h4>Pages</h4>
 
                         <ul>
-                            <li><a href="text.html">About us</a>
+                            <li><a href="text.php">About us</a>
                             </li>
-                            <li><a href="faq.html">FAQ</a>
+                            <li><a href="faq.php">FAQ</a>
                             </li>
-                            <li><a href="contact.html">Contact us</a>
+                            <li><a href="contact.php">Contact us</a>
                             </li>
                         </ul>
 
@@ -707,7 +705,7 @@
                         <ul>
                             <li><a href="#" data-toggle="modal" data-target="#login-modal">Login</a>
                             </li>
-                            <li><a href="register.html">Regiter</a>
+                            <li><a href="register.php">Regiter</a>
                             </li>
                         </ul>
 
@@ -720,16 +718,16 @@
 
                         <h4>Top categories</h4>
                         <ul>
-                            <li><a href="category.html">Steam</a>
+                            <li><a href="category-steam.php">Steam</a>
                             </li>
-                            <li><a href="category.html">Line Store</a>
+                            <li><a href="category-line.php">Line Store</a>
                             </li>
-                            <li><a href="category.html">Xbox Live Gift Card</a>
+                            <li><a href="category-xbox.php">Xbox Live Gift Card</a>
                             </li>
                         
-                            <li><a href="category.html">I-Tunes Gift Card</a>
+                            <li><a href="category-itunes.php">I-Tunes Gift Card</a>
                             </li>
-                            <li><a href="category.html">Facebook Game Card</a>
+                            <li><a href="category-fb.php">Facebook Game Card</a>
                             </li>
                         </ul>
 

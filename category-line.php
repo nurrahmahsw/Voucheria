@@ -41,7 +41,7 @@
 </head>
 
 <body>
-    <!-- *** TOPBAR ***
+   <!-- *** TOPBAR ***
  _________________________________________________________ -->
     <div id="top">
         <div class="container">
@@ -132,15 +132,15 @@
                                     <div class="row">
                                         <div class="col-sm-6">
                                             <ul>
-                                                <li><a href="category.html">I-Tunes Gift Card</a>
+                                                <li><a href="category-itunes.html">I-Tunes Gift Card</a>
                                                 </li>
-                                                <li><a href="category.html">Line Store</a>
+                                                <li><a href="category-line.html">Line Store</a>
                                                 </li>
-                                                <li><a href="category.html">PlayStation Network Card</a>
+                                                <li><a href="category-ps.html">PlayStation Network Card</a>
                                                 </li>
-                                                <li><a href="category.html">Xbox Live Gift Card</a>
+                                                <li><a href="category-xbox.html">Xbox Live Gift Card</a>
                                                 </li>
-                                                <li><a href="category.html">Travian</a>
+                                                <li><a href="category-travian.html">Travian</a>
                                                 </li>
                                                 <li><a href="category.html">LYTO Game</a>
                                                 </li>
@@ -229,129 +229,158 @@
             <div class="container">
 
                 <div class="col-md-12">
+
                     <ul class="breadcrumb">
                         <li><a href="#">Home</a>
                         </li>
-                        <li>Checkout - Payment method</li>
+                        <li>LINE STORE</li>
                     </ul>
-                </div>
-
-                <div class="col-md-9" id="checkout">
 
                     <div class="box">
-                        <form method="post" action="checkout4.html">
-                            <h1>Checkout - Payment method</h1>
-                            <ul class="nav nav-pills nav-justified">
-                                <li><a href="checkout1.html"><i class="fa fa-map-marker"></i><br>Address</a>
-                                </li>
-                                <li><a href="checkout2.html"><i class="fa fa-truck"></i><br>Delivery Method</a>
-                                </li>
-                                <li class="active"><a href="#"><i class="fa fa-money"></i><br>Payment Method</a>
-                                </li>
-                                <li class="disabled"><a href="checkout4.html"><i class="fa fa-eye"></i><br>Order Review</a>
-                                </li>
-                            </ul>
-
-                            <div class="content">
-                                <div class="row">
-                                    <div class="col-sm-6">
-                                        <div class="box payment-method">
-
-                                            <h4>Paypal</h4>
-
-                                            <p>We like it all.</p>
-
-                                            <div class="box-footer text-center">
-
-                                                <input type="radio" name="payment" value="payment1">
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="col-sm-6">
-                                        <div class="box payment-method">
-
-                                            <h4>Payment gateway</h4>
-
-                                            <p>VISA and Mastercard only.</p>
-
-                                            <div class="box-footer text-center">
-
-                                                <input type="radio" name="payment" value="payment2">
-                                            </div>
-                                        </div>
-                                    </div>
-
-                                    <div class="col-sm-6">
-                                        <div class="box payment-method">
-
-                                            <h4>Cash on delivery</h4>
-
-                                            <p>You pay when you get it.</p>
-
-                                            <div class="box-footer text-center">
-
-                                                <input type="radio" name="payment" value="payment3">
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <!-- /.row -->
-
-                            </div>
-                            <!-- /.content -->
-
-                            <div class="box-footer">
-                                <div class="pull-left">
-                                    <a href="basket.html" class="btn btn-default"><i class="fa fa-chevron-left"></i>Back to Shipping method</a>
-                                </div>
-                                <div class="pull-right">
-                                    <button type="submit" class="btn btn-primary">Continue to Order review<i class="fa fa-chevron-right"></i>
-                                    </button>
-                                </div>
-                            </div>
-                        </form>
+                        <h1>LINE STORE</h1>
+                        <p>Voucher MogPlay untuk LINE STORE dapat diredeem menjadi LINE Credit dan digunakan di LINE STORE untuk membeli berbagai item berbayar LINE, Koin (alat pembayaran virtual) yang bisa digunakan di LINE Games dan sebagainya.</p>
+                        <strong>Daftar Game</strong>
+                        <p>LINE Sticker, LINE Themes, LINE Games, LINE Out</p>
                     </div>
-                    <!-- /.box -->
+
+                    <div class="box info-bar">
+                        <div class="row">
+                            
+
+                            <div class="col-sm-12 col-md-8  products-number-sort">
+                                <div class="row">
+                                    <form class="form-inline">
+                                        
+                                        <div class="col-md-6 col-sm-6">
+                                            <div class="products-sort-by">
+                                                <strong>Sort by</strong>
+                                                <select name="sort-by" class="form-control">
+                                                    <option>Price</option>
+                                                    <option>Name</option>
+                                                    <option>Sales first</option>
+                                                </select>
+                                            </div>
+                                        </div>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="row products">
+
+                        
+
+                        
+
+                        <div class="col-md-3 col-sm-4">
+                            <div class="product">
+                                <div class="flip-container">
+                                    <div class="flipper">
+                                        <div class="front">
+                                            <a href="detail.html">
+                                                <img src="img/product3.jpg" alt="" class="img-responsive">
+                                            </a>
+                                        </div>
+                                        <div class="back">
+                                            <a href="detail.html">
+                                                <img src="img/product3_2.jpg" alt="" class="img-responsive">
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <a href="detail.html" class="invisible">
+                                    <img src="img/product3.jpg" alt="" class="img-responsive">
+                                </a>
+                                <div class="text">
+                                    <h3><a href="detail.html">Black Blouse Versace</a></h3>
+                                    <p class="price">$143.00</p>
+                                    <p class="buttons">
+                                        <a href="detail.html" class="btn btn-default">View detail</a>
+                                        <a href="basket.html" class="btn btn-primary"><i class="fa fa-shopping-cart"></i>Add to cart</a>
+                                    </p>
+
+                                </div>
+                                <!-- /.text -->
+                            </div>
+                            <!-- /.product -->
+                        </div>
+
+                        <div class="col-md-3 col-sm-4">
+                            <div class="product">
+                                <div class="flip-container">
+                                    <div class="flipper">
+                                        <div class="front">
+                                            <a href="detail.html">
+                                                <img src="img/product3.jpg" alt="" class="img-responsive">
+                                            </a>
+                                        </div>
+                                        <div class="back">
+                                            <a href="detail.html">
+                                                <img src="img/product3_2.jpg" alt="" class="img-responsive">
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <a href="detail.html" class="invisible">
+                                    <img src="img/product3.jpg" alt="" class="img-responsive">
+                                </a>
+                                <div class="text">
+                                    <h3><a href="detail.html">Black Blouse Versace</a></h3>
+                                    <p class="price">$143.00</p>
+                                    <p class="buttons">
+                                        <a href="detail.html" class="btn btn-default">View detail</a>
+                                        <a href="basket.html" class="btn btn-primary"><i class="fa fa-shopping-cart"></i>Add to cart</a>
+                                    </p>
+
+                                </div>
+                                <!-- /.text -->
+                            </div>
+                            <!-- /.product -->
+                        </div>
+
+                        
+                        <div class="col-md-3 col-sm-4">
+                            <div class="product">
+                                <div class="flip-container">
+                                    <div class="flipper">
+                                        <div class="front">
+                                            <a href="detail.html">
+                                                <img src="img/product3.jpg" alt="" class="img-responsive">
+                                            </a>
+                                        </div>
+                                        <div class="back">
+                                            <a href="detail.html">
+                                                <img src="img/product3_2.jpg" alt="" class="img-responsive">
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <a href="detail.html" class="invisible">
+                                    <img src="img/product3.jpg" alt="" class="img-responsive">
+                                </a>
+                                <div class="text">
+                                    <h3><a href="detail.html">Black Blouse Versace</a></h3>
+                                    <p class="price">$143.00</p>
+                                    <p class="buttons">
+                                        <a href="detail.html" class="btn btn-default">View detail</a>
+                                        <a href="basket.html" class="btn btn-primary"><i class="fa fa-shopping-cart"></i>Add to cart</a>
+                                    </p>
+
+                                </div>
+                                <!-- /.text -->
+                            </div>
+                            <!-- /.product -->
+                        </div>
+
+                    </div>
+                    <!-- /.products -->
+
+                    
 
 
                 </div>
                 <!-- /.col-md-9 -->
-
-                <div class="col-md-3">
-
-                    <div class="box" id="order-summary">
-                        <div class="box-header">
-                            <h3>Order summary</h3>
-                        </div>
-                        <p class="text-muted">Shipping and additional costs are calculated based on the values you have entered.</p>
-
-                        <div class="table-responsive">
-                            <table class="table">
-                                <tbody>
-                                    <tr>
-                                        <td>Order subtotal</td>
-                                        <th>$446.00</th>
-                                    </tr>
-                                    <tr>
-                                        <td>Shipping and handling</td>
-                                        <th>$10.00</th>
-                                    </tr>
-                                    <tr>
-                                        <td>Tax</td>
-                                        <th>$0.00</th>
-                                    </tr>
-                                    <tr class="total">
-                                        <td>Total</td>
-                                        <th>$456.00</th>
-                                    </tr>
-                                </tbody>
-                            </table>
-                        </div>
-
-                    </div>
-
-                </div>
-                <!-- /.col-md-3 -->
 
             </div>
             <!-- /.container -->
@@ -396,16 +425,16 @@
 
                         <h4>Top categories</h4>
                         <ul>
-                            <li><a href="category.html">Steam</a>
+                            <li><a href="category-steam.html">Steam</a>
                             </li>
-                            <li><a href="category.html">Line Store</a>
+                            <li><a href="category-line.html">Line Store</a>
                             </li>
-                            <li><a href="category.html">Xbox Live Gift Card</a>
+                            <li><a href="category-xbox.html">Xbox Live Gift Card</a>
                             </li>
                         
-                            <li><a href="category.html">I-Tunes Gift Card</a>
+                            <li><a href="category-itunes.html">I-Tunes Gift Card</a>
                             </li>
-                            <li><a href="category.html">Facebook Game Card</a>
+                            <li><a href="category-fb.html">Facebook Game Card</a>
                             </li>
                         </ul>
 
