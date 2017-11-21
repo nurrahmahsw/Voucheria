@@ -186,35 +186,17 @@
                                                 </li>
                                                 <li><a href="category-ps.php">PlayStation Network Card</a>
                                                 </li>
-                                                <li><a href="category-xbox.php">Xbox Live Gift Card</a>
-                                                </li>
-                                                <li><a href="category-travian.php">Travian</a>
-                                                </li>
-                                                <li><a href="category.php">LYTO Game</a>
-                                                </li>
-                                                <li><a href="category.php">Megaxus MI-Cash</a>
-                                                </li>
-                                                <li><a href="category.php">WaveGame</a>
-                                                </li>
-                                                <li><a href="category-zynga.php">Zynga</a>
-                                                </li>
-                                                <li><a href="category-mogplay.php">MOGPlay</a>
-                                                </li>
                                                 <li><a href="category-digigame.php">Digi Game Card</a>
                                                 </li>
                                             </ul>
                                         </div>
                                         <div class="col-sm-6">
                                             <ul>
-                                                <li><a href="category.php">Steam</a>
+                                                <li><a href="#">Steam</a>
                                                 </li>
-                                                <li><a href="category.php">Gerena Shells</a>
+                                                <li><a href="#">Gerena Shells</a>
                                                 </li>
-                                                <li><a href="category.php">Gemscool Cash</a>
-                                                </li>
-                                                <li><a href="category.php">Battle.net Balance Card</a>
-                                                </li>
-                                                <li><a href="category-facebook.php">Facebook Game Card</a>
+                                                <li><a href="#">Gemscool Cash</a>
                                                 </li>
                                             </ul>
                                         </div>
