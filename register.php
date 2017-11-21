@@ -48,11 +48,7 @@
             
             <div class="col-md-12" data-animate="fadeInDown">
                 <ul class="menu">
-                    <li><a href="#" data-toggle="modal" data-target="#login-modal">Login</a>
-                    </li>
-                    <li><a href="register.php">Register</a>
-                    </li>
-                    <li><a href="contact.php">Contact</a>
+                    <li><a href="contact.html">Contact</a>
                     </li>                    
                 </ul>
             </div>
@@ -66,12 +62,13 @@
                         <h4 class="modal-title" id="Login">Customer login</h4>
                     </div>
                     <div class="modal-body">
-                        <form action="customer-orders.php" method="post">
+                        <form action="" method="post">
+                            <input type="hidden" name="login2" value ="1">
                             <div class="form-group">
-                                <input type="text" class="form-control" id="email-modal" placeholder="email">
+                                <input type="text" class="form-control" id="email-modal" name ="emaillog" placeholder="email">
                             </div>
                             <div class="form-group">
-                                <input type="password" class="form-control" id="password-modal" placeholder="password">
+                                <input type="password" class="form-control" id="password-modal" name ="passwordlog" placeholder="password">
                             </div>
 
                             <p class="text-center">
@@ -81,7 +78,7 @@
                         </form>
 
                         <p class="text-center text-muted">Not registered yet?</p>
-                        <p class="text-center text-muted"><a href="register.php"><strong>Register now</strong></a>! It is easy and done in 1&nbsp;minute and gives you access to special discounts and much more!</p>
+                        <p class="text-center text-muted"><a href="register.html"><strong>Register now</strong></a>! It is easy and done in 1&nbsp;minute and gives you access to special discounts and much more!</p>
 
                     </div>
                 </div>
@@ -99,7 +96,7 @@
         <div class="container">
             <div class="navbar-header">
 
-                <a class="navbar-brand home" href="index.php" data-animate-hover="bounce">
+                <a class="navbar-brand home" href="index.html" data-animate-hover="bounce">
                     <img src="img/logo.png" alt="Obaju logo" class="hidden-xs">
                     <img src="img/logo-small.png" alt="Obaju logo" class="visible-xs"><span class="sr-only">Obaju - go to homepage</span>
                 </a>
@@ -112,7 +109,7 @@
                         <span class="sr-only">Toggle search</span>
                         <i class="fa fa-search"></i>
                     </button>
-                    <a class="btn btn-default navbar-toggle" href="basket.php">
+                    <a class="btn btn-default navbar-toggle" href="basket.html">
                         <i class="fa fa-shopping-cart"></i>  <span class="hidden-xs">3 items in cart</span>
                     </a>
                 </div>
@@ -122,7 +119,7 @@
             <div class="navbar-collapse collapse" id="navigation">
 
                 <ul class="nav navbar-nav navbar-left">
-                    <li class="active"><a href="index.php">Home</a>
+                    <li class="active"><a href="index.html">Home</a>
                     </li>
                     <li class="dropdown yamm-fw">
                         <a href="#" class="dropdown-toggle" data-toggle="dropdown" data-hover="dropdown" data-delay="200">Voucher Game <b class="caret"></b></a>
@@ -132,41 +129,41 @@
                                     <div class="row">
                                         <div class="col-sm-6">
                                             <ul>
-                                                <li><a href="category-itunes.php">I-Tunes Gift Card</a>
+                                                <li><a href="category.html">I-Tunes Gift Card</a>
                                                 </li>
-                                                <li><a href="category-line.php">Line Store</a>
+                                                <li><a href="category.html">Line Store</a>
                                                 </li>
-                                                <li><a href="category-ps.php">PlayStation Network Card</a>
+                                                <li><a href="category.html">PlayStation Network Card</a>
                                                 </li>
-                                                <li><a href="category-xbox.php">Xbox Live Gift Card</a>
+                                                <li><a href="category.html">Xbox Live Gift Card</a>
                                                 </li>
-                                                <li><a href="category-travian.php">Travian</a>
+                                                <li><a href="category.html">Travian</a>
                                                 </li>
-                                                <li><a href="category.php">LYTO Game</a>
+                                                <li><a href="category.html">LYTO Game</a>
                                                 </li>
-                                                <li><a href="category.php">Megaxus MI-Cash</a>
+                                                <li><a href="category.html">Megaxus MI-Cash</a>
                                                 </li>
-                                                <li><a href="category.php">WaveGame</a>
+                                                <li><a href="category.html">WaveGame</a>
                                                 </li>
-                                                <li><a href="category.php">Zynga</a>
+                                                <li><a href="category.html">Zynga</a>
                                                 </li>
-                                                <li><a href="category.php">MOGPlay</a>
+                                                <li><a href="category.html">MOGPlay</a>
                                                 </li>
-                                                <li><a href="category.php">Digi Game Card</a>
+                                                <li><a href="category.html">Digi Game Card</a>
                                                 </li>
                                             </ul>
                                         </div>
                                         <div class="col-sm-6">
                                             <ul>
-                                                <li><a href="category.php">Steam</a>
+                                                <li><a href="category.html">Steam</a>
                                                 </li>
-                                                <li><a href="category.php">Gerena Shells</a>
+                                                <li><a href="category.html">Gerena Shells</a>
                                                 </li>
-                                                <li><a href="category.php">Gemscool Cash</a>
+                                                <li><a href="category.html">Gemscool Cash</a>
                                                 </li>
-                                                <li><a href="category.php">Battle.net Balance Card</a>
+                                                <li><a href="category.html">Battle.net Balance Card</a>
                                                 </li>
-                                                <li><a href="category.php">Facebook Game Card</a>
+                                                <li><a href="category.html">Facebook Game Card</a>
                                                 </li>
                                             </ul>
                                         </div>
@@ -187,7 +184,7 @@
             <div class="navbar-buttons">
 
                 <div class="navbar-collapse collapse right" id="basket-overview">
-                    <a href="basket.php" class="btn btn-primary navbar-btn"><i class="fa fa-shopping-cart"></i><span class="hidden-sm">3 items in cart</span></a>
+                    <a href="basket.html" class="btn btn-primary navbar-btn"><i class="fa fa-shopping-cart"></i><span class="hidden-sm">3 items in cart</span></a>
                 </div>
                 <!--/.nav-collapse -->
 
@@ -237,7 +234,98 @@
                     </ul>
 
                 </div>
+<?php
+if(isset($_POST['register'])){
+    if($_SERVER['REQUEST_METHOD'] == 'POST'){
+        $name = $_POST['name'];
+        $email = $_POST['email'];
+        $password = $_POST['password'];
+        $curl = curl_init();
+        
+        curl_setopt_array($curl, array(
+          CURLOPT_URL => "http://tugas-sit.komsi.ga/auth/public/api/register",
+          CURLOPT_RETURNTRANSFER => true,
+          CURLOPT_ENCODING => "",
+          CURLOPT_MAXREDIRS => 10,
+          CURLOPT_TIMEOUT => 300,
+          CURLOPT_HTTP_VERSION => CURL_HTTP_VERSION_1_1,
+          CURLOPT_CUSTOMREQUEST => "POST",
+          CURLOPT_POSTFIELDS => "name=". $name ."&email=". $email ."&password=". $password ."",
+          CURLOPT_HTTPHEADER => array(
+            "content-type: application/x-www-form-urlencoded",
+          ),
+        ));
 
+        $response = curl_exec($curl);
+        $err = curl_error($curl);
+        
+        curl_close($curl);
+        
+        if ($err) {
+          echo "cURL Error #:" . $err;
+        } else {
+            //echo $response;
+            //decode dulu
+            $data = json_decode($response);
+            if($data->status) {
+                echo "berhasil";
+                echo '<script type="text/javascript">';
+                echo "alert('OK, Anda Berhasil Registrasi'); window.location='index.html'";
+                echo "</script>";
+                redirect("location:index.html");
+                
+            } else {
+                //echo "Gagal ndaftar bu, errornya: " . $data->error;
+                echo '<script type="text/javascript">';
+                echo "alert('OK, Maaf email yang Anda masukkan telah terdaftar');";
+                echo "</script>";
+            }
+        }
+    }
+}else if(isset($_POST['login']) or isset($_POST['login2'])){
+    if($_SERVER['REQUEST_METHOD'] == 'POST') {
+        $emaillog = $_POST['emaillog'];
+        $passlog = $_POST['passwordlog'];
+        $curl = curl_init();
+        
+        curl_setopt_array($curl, array(
+          CURLOPT_URL => "http://tugas-sit.komsi.ga/auth/public/api/login",
+          CURLOPT_RETURNTRANSFER => true,
+          CURLOPT_ENCODING => "",
+          CURLOPT_MAXREDIRS => 10,
+          CURLOPT_TIMEOUT => 300,
+          CURLOPT_HTTP_VERSION => CURL_HTTP_VERSION_1_1,
+          CURLOPT_CUSTOMREQUEST => "POST",
+          CURLOPT_POSTFIELDS => "email=". $emaillog ."&password=". $passlog ."",
+          CURLOPT_HTTPHEADER => array(
+            "content-type: application/x-www-form-urlencoded",
+          ),
+        ));
+
+
+        $response = curl_exec($curl);
+        $err = curl_error($curl);
+        
+        curl_close($curl);
+        
+       if ($err) {
+          echo "cURL Error #:" . $err;
+        } else {
+            $data = json_decode($response);
+            if($data->status) {
+                // echo "berhasil";
+                // session_start()
+                header("location:index.html");
+            } else {
+                //echo "Gagal ndaftar bu, errornya: " . $data->error;
+                echo '<script type="text/javascript">';
+                echo "alert('OK, Maaf Email atau Password salah! Silahkan Coba lagi!');";
+                echo "</script>";
+            }
+        }
+    }
+}
+?>
                 <div class="col-md-6">
                     <div class="box">
                         <h1>New account</h1>
@@ -246,18 +334,19 @@
 
                         <hr>
 
-                        <form action="customer-orders.php" method="post">
+                        <form action="" method="post">
+                            <input type="hidden" name="register" value="1">
                             <div class="form-group">
                                 <label for="name">Name</label>
-                                <input type="text" class="form-control" id="name">
+                                <input type="text" class="form-control" id="name" name= "name">
                             </div>
                             <div class="form-group">
                                 <label for="email">Email</label>
-                                <input type="text" class="form-control" id="email">
+                                <input type="text" class="form-control" id="email" name="email">
                             </div>
                             <div class="form-group">
                                 <label for="password">Password</label>
-                                <input type="password" class="form-control" id="password">
+                                <input type="password" class="form-control" id="password" name="password">
                             </div>
                             <div class="text-center">
                                 <button type="submit" class="btn btn-primary"><i class="fa fa-user-md"></i> Register</button>
@@ -275,14 +364,15 @@
 
                         <hr>
 
-                        <form action="customer-orders.php" method="post">
+                        <form action="" method="post">
+                            <input type="hidden" name="login" value="1">
                             <div class="form-group">
                                 <label for="email">Email</label>
-                                <input type="text" class="form-control" id="email">
+                                <input type="text" class="form-control" id="email" name="emaillog">
                             </div>
                             <div class="form-group">
                                 <label for="password">Password</label>
-                                <input type="password" class="form-control" id="password">
+                                <input type="password" class="form-control" id="password" name="passwordlog">
                             </div>
                             <div class="text-center">
                                 <button type="submit" class="btn btn-primary"><i class="fa fa-sign-in"></i> Log in</button>
@@ -307,11 +397,11 @@
                         <h4>Pages</h4>
 
                         <ul>
-                            <li><a href="text.php">About us</a>
+                            <li><a href="text.html">About us</a>
                             </li>
-                            <li><a href="faq.php">FAQ</a>
+                            <li><a href="faq.html">FAQ</a>
                             </li>
-                            <li><a href="contact.php">Contact us</a>
+                            <li><a href="contact.html">Contact us</a>
                             </li>
                         </ul>
 
@@ -322,7 +412,7 @@
                         <ul>
                             <li><a href="#" data-toggle="modal" data-target="#login-modal">Login</a>
                             </li>
-                            <li><a href="register.php">Regiter</a>
+                            <li><a href="register.html">Regiter</a>
                             </li>
                         </ul>
 
@@ -335,16 +425,16 @@
 
                         <h4>Top categories</h4>
                         <ul>
-                            <li><a href="category-steam.php">Steam</a>
+                            <li><a href="category.html">Steam</a>
                             </li>
-                            <li><a href="category-line.php">Line Store</a>
+                            <li><a href="category.html">Line Store</a>
                             </li>
-                            <li><a href="category-xbox.php">Xbox Live Gift Card</a>
+                            <li><a href="category.html">Xbox Live Gift Card</a>
                             </li>
                         
-                            <li><a href="category-itunes.php">I-Tunes Gift Card</a>
+                            <li><a href="category.html">I-Tunes Gift Card</a>
                             </li>
-                            <li><a href="category-fb.php">Facebook Game Card</a>
+                            <li><a href="category.html">Facebook Game Card</a>
                             </li>
                         </ul>
 

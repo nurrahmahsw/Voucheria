@@ -58,6 +58,52 @@
                 </ul>
             </div>
         </div>
+        <?php
+        if (isset($_POST['login-modal'])){
+            if($_SERVER['REQUEST_METHOD'] == 'POST') {
+            $emaillog = $_POST['email-modal'];
+            $passlog = $_POST['password-modal'];
+        $curl = curl_init();
+        
+        curl_setopt_array($curl, array(
+          CURLOPT_URL => "http://tugas-sit.komsi.ga/auth/public/api/login",
+          CURLOPT_RETURNTRANSFER => true,
+          CURLOPT_ENCODING => "",
+          CURLOPT_MAXREDIRS => 10,
+          CURLOPT_TIMEOUT => 300,
+          CURLOPT_HTTP_VERSION => CURL_HTTP_VERSION_1_1,
+          CURLOPT_CUSTOMREQUEST => "POST",
+          CURLOPT_POSTFIELDS => "email=". $emaillog ."&password=". $passlog ."",
+          CURLOPT_HTTPHEADER => array(
+            "content-type: application/x-www-form-urlencoded",
+          ),
+        ));
+
+
+        $response = curl_exec($curl);
+        $err = curl_error($curl);
+        
+        curl_close($curl);
+        
+       if ($err) {
+          echo "cURL Error #:" . $err;
+        } else {
+            $data = json_decode($response);
+            if($data->status) {
+                // echo "berhasil";
+                // session_start()
+                header("location:index.php");
+            } else {
+                echo "Gagal ndaftar bu, errornya: " . $data->error;
+                echo '<script type="text/javascript">';
+                echo "alert('OK, Maaf Email atau Password salah! Silahkan Coba lagi!');";
+                echo "</script>";
+            }
+        }
+    }
+        }
+        
+    ?>
         <div class="modal fade" id="login-modal" tabindex="-1" role="dialog" aria-labelledby="Login" aria-hidden="true">
             <div class="modal-dialog modal-sm">
 
@@ -67,12 +113,13 @@
                         <h4 class="modal-title" id="Login">Customer login</h4>
                     </div>
                     <div class="modal-body">
-                        <form action="customer-orders.php" method="post">
+                        <form action="" method="post">
+                            <input type="hidden" value="1" name="login-modal">
                             <div class="form-group">
-                                <input type="text" class="form-control" id="email-modal" placeholder="email">
+                                <input type="text" class="form-control" id="email-modal" name ="email-modal"placeholder="email">
                             </div>
                             <div class="form-group">
-                                <input type="password" class="form-control" id="password-modal" placeholder="password">
+                                <input type="password" class="form-control" id="password-modal" name="password-modal" placeholder="password">
                             </div>
 
                             <p class="text-center">
