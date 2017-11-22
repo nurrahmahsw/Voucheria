@@ -53,12 +53,41 @@ if(isset($_POST['register'])){
             //decode dulu
             $data = json_decode($response);
             if($data->status) {
-                echo "berhasil";
+                //echo "berhasil";
                 echo '<script type="text/javascript">';
                 echo "alert('OK, Anda Berhasil Registrasi'); window.location='index.php'";
                 echo "</script>";
-                redirect("location:index.php");
-                
+                $pesan = "Selamat, Anda berhasil Registrasi di Voucheria!";
+                curl_setopt_array($curl, array(
+                CURLOPT_URL => "http://blacklight.id/api/send",
+                CURLOPT_RETURNTRANSFER => true,
+                CURLOPT_ENCODING => "",
+                CURLOPT_MAXREDIRS => 10,
+                CURLOPT_TIMEOUT => 300,
+                CURLOPT_HTTP_VERSION => CURL_HTTP_VERSION_1_1,
+                CURLOPT_CUSTOMREQUEST => "POST",
+                CURLOPT_POSTFIELDS => "tujuan=". $nohp ."&pesan=". $pesan ."",
+                CURLOPT_HTTPHEADER => array(
+                    "api_key: $2y$10$910Pjp4TajYH9GE.jN74Zuz9CnjgTxoBiVFjrFzMt0U/SoldrcXtK",
+                    "email: shafirafitrianissa02@gmail.com",
+                ),
+            ));
+
+            $response = curl_exec($curl);
+            $err = curl_error($curl);
+        
+            curl_close($curl);
+                if ($err) {
+                    echo '<script type="text/javascript">';
+                    echo "alert('OK, $err');";
+                    echo "</script>"; 
+                    //echo "cURL Error #:" . $err;
+                } else {
+                    echo '<script type="text/javascript">';
+                    echo "alert('OK, SMS Registrasi telah dikirimkan');";
+                    echo "</script>"; 
+                }
+                header("location:index.php");
             } else {
                 //echo "Gagal ndaftar bu, errornya: " . $data->error;
                 echo '<script type="text/javascript">';
