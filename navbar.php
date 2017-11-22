@@ -49,10 +49,9 @@
             $data = json_decode($response);
             if($data->status) {
                 // echo "berhasil";
-                session_start();
-                $_SESSION["email"] = $emaillog;
+                $_SESSION["login"] = $data->result->name;
                 //session_register("")
-                redirect("location:index.php");
+                header("location:index.php");
             } else {
                 echo "Gagal ndaftar bu, errornya: " . $data->error;
                 echo '<script type="text/javascript">';

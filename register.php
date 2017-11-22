@@ -126,7 +126,10 @@ if(isset($_POST['register'])){
           echo "cURL Error #:" . $err;
         } else {
             $data = json_decode($response);
+            //print_r($data);
             if($data->status) {
+                $_SESSION['login'] = $data->result->user->name;
+                $_SESSION['userid']= $data->result->user->id;
                 // echo "berhasil";
                 //session_start();
                 //session_register('login');

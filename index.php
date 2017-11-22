@@ -9,12 +9,27 @@
             <div class="col-md-12" data-animate="fadeInDown">
 
                 <ul class="menu">
+                    <?php
+                        
+                        if(isset($_SESSION['login'])){ 
+                            ?>
+                            <li><h3>Halo, <?php echo $_SESSION['login'];?></h3></a>
+                            </li>
+                            <?php
+                        }else{
+
+                        ?>
                         <li><a href="#" data-toggle="modal" data-target="#login-modal">Login</a>
                         </li>
                         <li><a href="register.php">Register</a>
                         </li>
                         <li><a href="contact.php">Contact</a>
-                        </li>          
+                        </li> 
+                       <?php
+                       }
+
+                    ?>
+                                
                 </ul>
             </div>
         </div>
