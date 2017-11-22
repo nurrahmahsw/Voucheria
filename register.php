@@ -1,224 +1,8 @@
-<!DOCTYPE html>
-<html lang="en">
+<?php
+    include("header.php");
+    include("navbar.php");
+?>
 
-<head>
-
-    <meta charset="utf-8">
-    <meta name="robots" content="all,follow">
-    <meta name="googlebot" content="index,follow,snippet,archive">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="Obaju e-commerce template">
-    <meta name="author" content="Ondrej Svestka | ondrejsvestka.cz">
-    <meta name="keywords" content="">
-
-    <title>
-        Voucheria : e-Voucher
-    </title>
-
-    <meta name="keywords" content="">
-
-    <link href='http://fonts.googleapis.com/css?family=Roboto:400,500,700,300,100' rel='stylesheet' type='text/css'>
-
-    <!-- styles -->
-    <link href="css/font-awesome.css" rel="stylesheet">
-    <link href="css/bootstrap.min.css" rel="stylesheet">
-    <link href="css/animate.min.css" rel="stylesheet">
-    <link href="css/owl.carousel.css" rel="stylesheet">
-    <link href="css/owl.theme.css" rel="stylesheet">
-
-    <!-- theme stylesheet -->
-    <link href="css/style.default.css" rel="stylesheet" id="theme-stylesheet">
-
-    <!-- your stylesheet with modifications -->
-    <link href="css/custom.css" rel="stylesheet">
-
-    <script src="js/respond.min.js"></script>
-
-    <link rel="shortcut icon" href="favicon.png">
-
-
-
-</head>
-
-<body>
-    <!-- *** TOPBAR ***
- _________________________________________________________ -->
-    <div id="top">
-        <div class="container">
-            
-            <div class="col-md-12" data-animate="fadeInDown">
-                <ul class="menu">
-                    <li><a href="contact.html">Contact</a>
-                    </li>                    
-                </ul>
-            </div>
-        </div>
-        <div class="modal fade" id="login-modal" tabindex="-1" role="dialog" aria-labelledby="Login" aria-hidden="true">
-            <div class="modal-dialog modal-sm">
-
-                <div class="modal-content">
-                    <div class="modal-header">
-                        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
-                        <h4 class="modal-title" id="Login">Customer login</h4>
-                    </div>
-                    <div class="modal-body">
-                        <form action="" method="post">
-                            <input type="hidden" name="login2" value ="1">
-                            <div class="form-group">
-                                <input type="text" class="form-control" id="email-modal" name ="emaillog" placeholder="email">
-                            </div>
-                            <div class="form-group">
-                                <input type="password" class="form-control" id="password-modal" name ="passwordlog" placeholder="password">
-                            </div>
-
-                            <p class="text-center">
-                                <button class="btn btn-primary"><i class="fa fa-sign-in"></i> Log in</button>
-                            </p>
-
-                        </form>
-
-                        <p class="text-center text-muted">Not registered yet?</p>
-                        <p class="text-center text-muted"><a href="register.html"><strong>Register now</strong></a>! It is easy and done in 1&nbsp;minute and gives you access to special discounts and much more!</p>
-
-                    </div>
-                </div>
-            </div>
-        </div>
-
-    </div>
-
-    <!-- *** TOP BAR END *** -->
-
-    <!-- *** NAVBAR ***
- _________________________________________________________ -->
-
-    <div class="navbar navbar-default yamm" role="navigation" id="navbar">
-        <div class="container">
-            <div class="navbar-header">
-
-                <a class="navbar-brand home" href="index.html" data-animate-hover="bounce">
-                    <img src="img/logo.png" alt="Obaju logo" class="hidden-xs">
-                    <img src="img/logo-small.png" alt="Obaju logo" class="visible-xs"><span class="sr-only">Obaju - go to homepage</span>
-                </a>
-                <div class="navbar-buttons">
-                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navigation">
-                        <span class="sr-only">Toggle navigation</span>
-                        <i class="fa fa-align-justify"></i>
-                    </button>
-                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#search">
-                        <span class="sr-only">Toggle search</span>
-                        <i class="fa fa-search"></i>
-                    </button>
-                    <a class="btn btn-default navbar-toggle" href="basket.html">
-                        <i class="fa fa-shopping-cart"></i>  <span class="hidden-xs">3 items in cart</span>
-                    </a>
-                </div>
-            </div>
-            <!--/.navbar-header -->
-
-            <div class="navbar-collapse collapse" id="navigation">
-
-                <ul class="nav navbar-nav navbar-left">
-                    <li class="active"><a href="index.html">Home</a>
-                    </li>
-                    <li class="dropdown yamm-fw">
-                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" data-hover="dropdown" data-delay="200">Voucher Game <b class="caret"></b></a>
-                        <ul class="dropdown-menu">
-                            <li>
-                                <div class="yamm-content">
-                                    <div class="row">
-                                        <div class="col-sm-6">
-                                            <ul>
-                                                <li><a href="category.html">I-Tunes Gift Card</a>
-                                                </li>
-                                                <li><a href="category.html">Line Store</a>
-                                                </li>
-                                                <li><a href="category.html">PlayStation Network Card</a>
-                                                </li>
-                                                <li><a href="category.html">Xbox Live Gift Card</a>
-                                                </li>
-                                                <li><a href="category.html">Travian</a>
-                                                </li>
-                                                <li><a href="category.html">LYTO Game</a>
-                                                </li>
-                                                <li><a href="category.html">Megaxus MI-Cash</a>
-                                                </li>
-                                                <li><a href="category.html">WaveGame</a>
-                                                </li>
-                                                <li><a href="category.html">Zynga</a>
-                                                </li>
-                                                <li><a href="category.html">MOGPlay</a>
-                                                </li>
-                                                <li><a href="category.html">Digi Game Card</a>
-                                                </li>
-                                            </ul>
-                                        </div>
-                                        <div class="col-sm-6">
-                                            <ul>
-                                                <li><a href="category.html">Steam</a>
-                                                </li>
-                                                <li><a href="category.html">Gerena Shells</a>
-                                                </li>
-                                                <li><a href="category.html">Gemscool Cash</a>
-                                                </li>
-                                                <li><a href="category.html">Battle.net Balance Card</a>
-                                                </li>
-                                                <li><a href="category.html">Facebook Game Card</a>
-                                                </li>
-                                            </ul>
-                                        </div>
-                                        
-                                    </div>
-                                </div>
-                                <!-- /.yamm-content -->
-                            </li>
-                        </ul>
-                    </li>
-
-                    
-                </ul>
-
-            </div>
-            <!--/.nav-collapse -->
-
-            <div class="navbar-buttons">
-
-                <div class="navbar-collapse collapse right" id="basket-overview">
-                    <a href="basket.html" class="btn btn-primary navbar-btn"><i class="fa fa-shopping-cart"></i><span class="hidden-sm">3 items in cart</span></a>
-                </div>
-                <!--/.nav-collapse -->
-
-                <div class="navbar-collapse collapse right" id="search-not-mobile">
-                    <button type="button" class="btn navbar-btn btn-primary" data-toggle="collapse" data-target="#search">
-                        <span class="sr-only">Toggle search</span>
-                        <i class="fa fa-search"></i>
-                    </button>
-                </div>
-
-            </div>
-
-            <div class="collapse clearfix" id="search">
-
-                <form class="navbar-form" role="search">
-                    <div class="input-group">
-                        <input type="text" class="form-control" placeholder="Search">
-                        <span class="input-group-btn">
-
-            <button type="submit" class="btn btn-primary"><i class="fa fa-search"></i></button>
-
-            </span>
-                    </div>
-                </form>
-
-            </div>
-            <!--/.nav-collapse -->
-
-        </div>
-        <!-- /.container -->
-    </div>
-    <!-- /#navbar -->
-
-    <!-- *** NAVBAR END *** -->
 
     <div id="all">
 
@@ -240,6 +24,7 @@ if(isset($_POST['register'])){
         $name = $_POST['name'];
         $email = $_POST['email'];
         $password = $_POST['password'];
+        $nohp = $_POST['nohp'];
         $curl = curl_init();
         
         curl_setopt_array($curl, array(
@@ -250,7 +35,7 @@ if(isset($_POST['register'])){
           CURLOPT_TIMEOUT => 300,
           CURLOPT_HTTP_VERSION => CURL_HTTP_VERSION_1_1,
           CURLOPT_CUSTOMREQUEST => "POST",
-          CURLOPT_POSTFIELDS => "name=". $name ."&email=". $email ."&password=". $password ."",
+          CURLOPT_POSTFIELDS => "name=". $name ."&email=". $email ."&password=". $password . "&phone_number=". $nohp ."",
           CURLOPT_HTTPHEADER => array(
             "content-type: application/x-www-form-urlencoded",
           ),
@@ -270,9 +55,9 @@ if(isset($_POST['register'])){
             if($data->status) {
                 echo "berhasil";
                 echo '<script type="text/javascript">';
-                echo "alert('OK, Anda Berhasil Registrasi'); window.location='index.html'";
+                echo "alert('OK, Anda Berhasil Registrasi'); window.location='index.php'";
                 echo "</script>";
-                redirect("location:index.html");
+                redirect("location:index.php");
                 
             } else {
                 //echo "Gagal ndaftar bu, errornya: " . $data->error;
@@ -314,8 +99,9 @@ if(isset($_POST['register'])){
             $data = json_decode($response);
             if($data->status) {
                 // echo "berhasil";
-                // session_start()
-                header("location:index.html");
+                //session_start();
+                //session_register('login');
+                header("location:http://localhost/Voucheria/");
             } else {
                 //echo "Gagal ndaftar bu, errornya: " . $data->error;
                 echo '<script type="text/javascript">';
@@ -347,6 +133,10 @@ if(isset($_POST['register'])){
                             <div class="form-group">
                                 <label for="password">Password</label>
                                 <input type="password" class="form-control" id="password" name="password">
+                            </div>
+                            <div class="form-group">
+                                <label for="number">No. HP</label>
+                                <input type="text" class="form-control" name="nohp">
                             </div>
                             <div class="text-center">
                                 <button type="submit" class="btn btn-primary"><i class="fa fa-user-md"></i> Register</button>
@@ -412,7 +202,7 @@ if(isset($_POST['register'])){
                         <ul>
                             <li><a href="#" data-toggle="modal" data-target="#login-modal">Login</a>
                             </li>
-                            <li><a href="register.html">Regiter</a>
+                            <li><a href="register.html">Register</a>
                             </li>
                         </ul>
 

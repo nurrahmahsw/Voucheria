@@ -1,60 +1,20 @@
-<!DOCTYPE html>
-<html lang="en">
-
-<head>
-
-    <meta charset="utf-8">
-    <meta name="robots" content="all,follow">
-    <meta name="googlebot" content="index,follow,snippet,archive">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="Obaju e-commerce template">
-    <meta name="author" content="Ondrej Svestka | ondrejsvestka.cz">
-    <meta name="keywords" content="">
-
-    <title>
-        Voucheria : e-Voucher
-    </title>
-
-    <meta name="keywords" content="">
-
-    <link href='http://fonts.googleapis.com/css?family=Roboto:400,500,700,300,100' rel='stylesheet' type='text/css'>
-
-    <!-- styles -->
-    <link href="css/font-awesome.css" rel="stylesheet">
-    <link href="css/bootstrap.min.css" rel="stylesheet">
-    <link href="css/animate.min.css" rel="stylesheet">
-    <link href="css/owl.carousel.css" rel="stylesheet">
-    <link href="css/owl.theme.css" rel="stylesheet">
-
-    <!-- theme stylesheet -->
-    <link href="css/style.default.css" rel="stylesheet" id="theme-stylesheet">
-
-    <!-- your stylesheet with modifications -->
-    <link href="css/custom.css" rel="stylesheet">
-
-    <script src="js/respond.min.js"></script>
-
-    <link rel="shortcut icon" href="favicon.png">
-
-
-
-</head>
-
-<body>
-
-    <!-- *** TOPBAR ***
+<?php
+    include("header.php");
+?>
+<!-- *** TOPBAR ***
  _________________________________________________________ -->
     <div id="top">
         <div class="container">
             
             <div class="col-md-12" data-animate="fadeInDown">
+
                 <ul class="menu">
-                    <li><a href="#" data-toggle="modal" data-target="#login-modal">Login</a>
-                    </li>
-                    <li><a href="register.php">Register</a>
-                    </li>
-                    <li><a href="contact.php">Contact</a>
-                    </li>                    
+                        <li><a href="#" data-toggle="modal" data-target="#login-modal">Login</a>
+                        </li>
+                        <li><a href="register.php">Register</a>
+                        </li>
+                        <li><a href="contact.php">Contact</a>
+                        </li>          
                 </ul>
             </div>
         </div>
@@ -91,8 +51,10 @@
             $data = json_decode($response);
             if($data->status) {
                 // echo "berhasil";
-                // session_start()
-                header("location:index.php");
+                session_start();
+                $_SESSION["email"] = $emaillog;
+                //session_register("")
+                redirect("location:index.php");
             } else {
                 echo "Gagal ndaftar bu, errornya: " . $data->error;
                 echo '<script type="text/javascript">';
@@ -237,9 +199,9 @@
                         <input type="text" class="form-control" placeholder="Search">
                         <span class="input-group-btn">
 
-			<button type="submit" class="btn btn-primary"><i class="fa fa-search"></i></button>
+            <button type="submit" class="btn btn-primary"><i class="fa fa-search"></i></button>
 
-		    </span>
+            </span>
                     </div>
                 </form>
 
@@ -252,6 +214,8 @@
     <!-- /#navbar -->
 
     <!-- *** NAVBAR END *** -->
+
+
 
 
 
